@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-07-26T17:49:07.091383+00:00",
+  "last_updated": "2026-07-26T18:29:15.739018+00:00",
   "opportunities": [
     {
       "asset": "VELO",
       "buy_exchange": "kraken",
       "buy_symbol": "VELO/USD",
-      "buy_price": 0.003772,
+      "buy_price": 0.003728,
       "sell_exchange": "coinbase",
       "sell_symbol": "VELO/USD",
-      "sell_price": 0.01714,
-      "gross_spread_pct": 354.401,
-      "est_net_spread_pct": 354.201,
+      "sell_price": 0.01707,
+      "gross_spread_pct": 357.886,
+      "est_net_spread_pct": 357.686,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
@@ -26,18 +26,6 @@
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "MOG",
-      "buy_exchange": "coinbase",
-      "buy_symbol": "MOG/USD",
-      "buy_price": 1e-07,
-      "sell_exchange": "kraken",
-      "sell_symbol": "MOG/USD",
-      "sell_price": 1.049e-07,
-      "gross_spread_pct": 4.9,
-      "est_net_spread_pct": 4.7,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
       "asset": "SYND",
       "buy_exchange": "coinbase",
       "buy_symbol": "SYND/USD",
@@ -50,15 +38,51 @@
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "CHECK",
+      "asset": "MOG",
+      "buy_exchange": "coinbase",
+      "buy_symbol": "MOG/USD",
+      "buy_price": 1e-07,
+      "sell_exchange": "kraken",
+      "sell_symbol": "MOG/USD",
+      "sell_price": 1.039e-07,
+      "gross_spread_pct": 3.9,
+      "est_net_spread_pct": 3.7,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
+      "asset": "WMTX",
+      "buy_exchange": "coinbase",
+      "buy_symbol": "WMTX/USD",
+      "buy_price": 0.02513,
+      "sell_exchange": "kraken",
+      "sell_symbol": "WMTX/USD",
+      "sell_price": 0.0255,
+      "gross_spread_pct": 1.472,
+      "est_net_spread_pct": 1.272,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
+      "asset": "BONK",
+      "buy_exchange": "coinbase",
+      "buy_symbol": "BONK/USD",
+      "buy_price": 3.05e-06,
+      "sell_exchange": "kraken",
+      "sell_symbol": "BONK/USD",
+      "sell_price": 3.09e-06,
+      "gross_spread_pct": 1.311,
+      "est_net_spread_pct": 1.111,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
+      "asset": "WAL",
       "buy_exchange": "kraken",
-      "buy_symbol": "CHECK/USD",
-      "buy_price": 0.027541,
+      "buy_symbol": "WAL/USD",
+      "buy_price": 0.02882,
       "sell_exchange": "coinbase",
-      "sell_symbol": "CHECK/USD",
-      "sell_price": 0.02802,
-      "gross_spread_pct": 1.739,
-      "est_net_spread_pct": 1.539,
+      "sell_symbol": "WAL/USD",
+      "sell_price": 0.02919,
+      "gross_spread_pct": 1.284,
+      "est_net_spread_pct": 1.084,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
@@ -74,6 +98,18 @@
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
+      "asset": "RLS",
+      "buy_exchange": "coinbase",
+      "buy_symbol": "RLS/USD",
+      "buy_price": 0.0020789,
+      "sell_exchange": "kraken",
+      "sell_symbol": "RLS/USD",
+      "sell_price": 0.0021,
+      "gross_spread_pct": 1.015,
+      "est_net_spread_pct": 0.815,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
       "asset": "DBR",
       "buy_exchange": "kraken",
       "buy_symbol": "DBR/USD",
@@ -86,63 +122,51 @@
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "WAL",
-      "buy_exchange": "kraken",
-      "buy_symbol": "WAL/USD",
-      "buy_price": 0.02892,
-      "sell_exchange": "coinbase",
-      "sell_symbol": "WAL/USD",
-      "sell_price": 0.02919,
-      "gross_spread_pct": 0.934,
-      "est_net_spread_pct": 0.734,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
-      "asset": "BONK",
-      "buy_exchange": "coinbase",
-      "buy_symbol": "BONK/USD",
-      "buy_price": 3.07e-06,
-      "sell_exchange": "kraken",
-      "sell_symbol": "BONK/USD",
-      "sell_price": 3.097e-06,
-      "gross_spread_pct": 0.879,
-      "est_net_spread_pct": 0.679,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
       "asset": "COTI",
       "buy_exchange": "kraken",
       "buy_symbol": "COTI/USD",
-      "buy_price": 0.00744,
+      "buy_price": 0.00743,
       "sell_exchange": "coinbase",
       "sell_symbol": "COTI/USD",
       "sell_price": 0.0075,
-      "gross_spread_pct": 0.806,
-      "est_net_spread_pct": 0.606,
+      "gross_spread_pct": 0.942,
+      "est_net_spread_pct": 0.742,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "IDEX",
-      "buy_exchange": "coinbase",
-      "buy_symbol": "IDEX/USD",
-      "buy_price": 0.00124,
-      "sell_exchange": "kraken",
-      "sell_symbol": "IDEX/USD",
-      "sell_price": 0.00125,
-      "gross_spread_pct": 0.806,
-      "est_net_spread_pct": 0.606,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
-      "asset": "MLN",
+      "asset": "ESP",
       "buy_exchange": "kraken",
-      "buy_symbol": "MLN/USD",
-      "buy_price": 1.3107,
+      "buy_symbol": "ESP/USD",
+      "buy_price": 0.09474,
       "sell_exchange": "coinbase",
-      "sell_symbol": "MLN/USD",
-      "sell_price": 1.32,
-      "gross_spread_pct": 0.71,
-      "est_net_spread_pct": 0.51,
+      "sell_symbol": "ESP/USD",
+      "sell_price": 0.09551,
+      "gross_spread_pct": 0.813,
+      "est_net_spread_pct": 0.613,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
+      "asset": "BNT",
+      "buy_exchange": "kraken",
+      "buy_symbol": "BNT/USD",
+      "buy_price": 0.2759,
+      "sell_exchange": "coinbase",
+      "sell_symbol": "BNT/USD",
+      "sell_price": 0.2781,
+      "gross_spread_pct": 0.797,
+      "est_net_spread_pct": 0.597,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
+      "asset": "THQ",
+      "buy_exchange": "coinbase",
+      "buy_symbol": "THQ/USD",
+      "buy_price": 0.01519,
+      "sell_exchange": "kraken",
+      "sell_symbol": "THQ/USD",
+      "sell_price": 0.0153,
+      "gross_spread_pct": 0.724,
+      "est_net_spread_pct": 0.524,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     }
   ]
