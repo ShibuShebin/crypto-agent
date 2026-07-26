@@ -1,15 +1,244 @@
 {
-  "last_updated": "2026-07-25T17:17:53.856560+00:00",
-  "signals": [],
+  "last_updated": "2026-07-26T13:24:08.467832+00:00",
+  "signals": [
+    {
+      "symbol": "BTC/USDT",
+      "exchange": "coinbase",
+      "price": 64448.3,
+      "signal": {
+        "direction": "NEUTRAL",
+        "confidence_pct": 16.0,
+        "raw_score": 0.0672,
+        "trend_strength": "choppy",
+        "breakdown": {
+          "rsi_score": -0.297,
+          "macd_score": 1.0,
+          "ema_trend_score": -0.016,
+          "bollinger_score": -0.404,
+          "volume_score": 0.0,
+          "adx": 13.1322
+        }
+      },
+      "rationale": "BTC/USDT: rule-based engine reads NEUTRAL at 16.0% confidence in a choppy market (RSI/MACD/EMA/Bollinger/volume composite score 0.0672). [AI explanation unavailable this cycle.]",
+      "indicators": {
+        "open": 64405.02,
+        "high": 64458.71,
+        "low": 64353.01,
+        "close": 64448.3,
+        "volume": 17.8277,
+        "rsi": 55.9405,
+        "macd": 50.1691,
+        "macd_signal": 45.7394,
+        "macd_diff": 4.4297,
+        "ema20": 64373.5919,
+        "ema50": 64423.5765,
+        "bb_high": 64528.8892,
+        "bb_low": 64258.4578,
+        "bb_pct": 0.702,
+        "adx": 13.1322,
+        "vol_avg20": 77.3617,
+        "vol_ratio": 0.2304
+      }
+    },
+    {
+      "symbol": "BTC/USDT",
+      "exchange": "kraken",
+      "price": 64447.6,
+      "signal": {
+        "direction": "NEUTRAL",
+        "confidence_pct": 17.6,
+        "raw_score": 0.0659,
+        "trend_strength": "choppy",
+        "breakdown": {
+          "rsi_score": -0.308,
+          "macd_score": 1.0,
+          "ema_trend_score": -0.015,
+          "bollinger_score": -0.4,
+          "volume_score": 0.0,
+          "adx": 13.3908
+        }
+      },
+      "rationale": "BTC/USDT: rule-based engine reads NEUTRAL at 17.6% confidence in a choppy market (RSI/MACD/EMA/Bollinger/volume composite score 0.0659). [AI explanation unavailable this cycle.]",
+      "indicators": {
+        "open": 64424.8,
+        "high": 64447.6,
+        "low": 64378.0,
+        "close": 64447.6,
+        "volume": 15.8393,
+        "rsi": 56.1656,
+        "macd": 51.8628,
+        "macd_signal": 46.557,
+        "macd_diff": 5.3057,
+        "ema20": 64375.5785,
+        "ema50": 64424.5315,
+        "bb_high": 64527.819,
+        "bb_low": 64260.391,
+        "bb_pct": 0.7,
+        "adx": 13.3908,
+        "vol_avg20": 15.9113,
+        "vol_ratio": 0.9955
+      }
+    },
+    {
+      "symbol": "ETH/USDT",
+      "exchange": "coinbase",
+      "price": 1885.84,
+      "signal": {
+        "direction": "NEUTRAL",
+        "confidence_pct": 45.7,
+        "raw_score": -0.0434,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": -0.811,
+          "macd_score": 1.0,
+          "ema_trend_score": 0.028,
+          "bollinger_score": -0.692,
+          "volume_score": 0.0,
+          "adx": 22.4239
+        }
+      },
+      "rationale": "ETH/USDT: rule-based engine reads NEUTRAL at 45.7% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.0434). [AI explanation unavailable this cycle.]",
+      "indicators": {
+        "open": 1884.85,
+        "high": 1886.2,
+        "low": 1880.32,
+        "close": 1885.84,
+        "volume": 345.8402,
+        "rsi": 66.2201,
+        "macd": 4.5487,
+        "macd_signal": 4.225,
+        "macd_diff": 0.3237,
+        "ema20": 1878.8828,
+        "ema50": 1876.294,
+        "bb_high": 1888.8207,
+        "bb_low": 1869.4443,
+        "bb_pct": 0.8462,
+        "adx": 22.4239,
+        "vol_avg20": 679.2539,
+        "vol_ratio": 0.5091
+      }
+    },
+    {
+      "symbol": "ETH/USDT",
+      "exchange": "kraken",
+      "price": 1886.14,
+      "signal": {
+        "direction": "NEUTRAL",
+        "confidence_pct": 37.5,
+        "raw_score": -0.05,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": -0.82,
+          "macd_score": 1.0,
+          "ema_trend_score": 0.028,
+          "bollinger_score": -0.729,
+          "volume_score": 0.0,
+          "adx": 23.1684
+        }
+      },
+      "rationale": "ETH/USDT: rule-based engine reads NEUTRAL at 37.5% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.05). [AI explanation unavailable this cycle.]",
+      "indicators": {
+        "open": 1885.25,
+        "high": 1886.14,
+        "low": 1880.65,
+        "close": 1886.14,
+        "volume": 71.4839,
+        "rsi": 66.401,
+        "macd": 4.6154,
+        "macd_signal": 4.2286,
+        "macd_diff": 0.3869,
+        "ema20": 1878.8137,
+        "ema50": 1876.2094,
+        "bb_high": 1888.7911,
+        "bb_low": 1869.1929,
+        "bb_pct": 0.8647,
+        "adx": 23.1684,
+        "vol_avg20": 434.8344,
+        "vol_ratio": 0.1644
+      }
+    },
+    {
+      "symbol": "SOL/USDT",
+      "exchange": "coinbase",
+      "price": 74.86,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 64.1,
+        "raw_score": -0.0966,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": -0.313,
+          "macd_score": -0.018,
+          "ema_trend_score": -0.008,
+          "bollinger_score": -0.197,
+          "volume_score": 0.0,
+          "adx": 22.0516
+        }
+      },
+      "rationale": "SOL/USDT: rule-based engine reads SHORT at 64.1% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.0966). [AI explanation unavailable this cycle.]",
+      "indicators": {
+        "open": 74.82,
+        "high": 74.87,
+        "low": 74.71,
+        "close": 74.86,
+        "volume": 3462.5299,
+        "rsi": 56.2513,
+        "macd": 0.1487,
+        "macd_signal": 0.1521,
+        "macd_diff": -0.0035,
+        "ema20": 74.7528,
+        "ema50": 74.7832,
+        "bb_high": 75.2155,
+        "bb_low": 74.3305,
+        "bb_pct": 0.5983,
+        "adx": 22.0516,
+        "vol_avg20": 7256.0424,
+        "vol_ratio": 0.4772
+      }
+    },
+    {
+      "symbol": "SOL/USDT",
+      "exchange": "kraken",
+      "price": 74.85,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 62.9,
+        "raw_score": -0.0883,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": -0.285,
+          "macd_score": -0.021,
+          "ema_trend_score": -0.008,
+          "bollinger_score": -0.172,
+          "volume_score": 0.0,
+          "adx": 20.0917
+        }
+      },
+      "rationale": "SOL/USDT: rule-based engine reads SHORT at 62.9% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.0883). [AI explanation unavailable this cycle.]",
+      "indicators": {
+        "open": 74.82,
+        "high": 74.86,
+        "low": 74.71,
+        "close": 74.85,
+        "volume": 401.8127,
+        "rsi": 55.6938,
+        "macd": 0.1501,
+        "macd_signal": 0.1544,
+        "macd_diff": -0.0043,
+        "ema20": 74.7517,
+        "ema50": 74.7802,
+        "bb_high": 75.2298,
+        "bb_low": 74.3122,
+        "bb_pct": 0.5861,
+        "adx": 20.0917,
+        "vol_avg20": 3292.9932,
+        "vol_ratio": 0.122
+      }
+    }
+  ],
   "errors": [
     "Insufficient data: binance BTC/USDT",
-    "Insufficient data: coinbase BTC/USDT",
-    "Insufficient data: kraken BTC/USDT",
     "Insufficient data: binance ETH/USDT",
-    "Insufficient data: coinbase ETH/USDT",
-    "Insufficient data: kraken ETH/USDT",
-    "Insufficient data: binance SOL/USDT",
-    "Insufficient data: coinbase SOL/USDT",
-    "Insufficient data: kraken SOL/USDT"
+    "Insufficient data: binance SOL/USDT"
   ]
 }
