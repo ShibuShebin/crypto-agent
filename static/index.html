@@ -302,7 +302,7 @@
     const list = document.getElementById('whale-list');
     const alerts = data.alerts || [];
     if (alerts.length === 0) {
-      list.innerHTML = '<div class="empty-state">No large transfers above threshold, or whale watch isn\\'t configured (needs a free Etherscan API key).</div>';
+      list.innerHTML = '<div class="empty-state">No large transfers above threshold, or whale watch is not configured (needs a free Etherscan API key).</div>';
       return;
     }
     list.innerHTML = alerts.map(a => `
