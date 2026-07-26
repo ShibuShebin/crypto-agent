@@ -1,72 +1,68 @@
 """
 scripts/generate_static.py
 
-Runs ONE refresh cycle (fetch data -> compute signals -> scan arbitrage ->
-write JSON) and saves the results into docs/data/. Meant to be run on a
-schedule by GitHub Actions, with docs/ served as a static site via GitHub
-Pages. No live server needed.
+Runs ONE full scan cycle (see pipeline.py for the full flow) and writes the
+results as static JSON into docs/data/. Meant to be run on a schedule by
+GitHub Actions, with docs/ served as a static site via GitHub Pages.
 
 Run manually:  python scripts/generate_static.py
 """
 import asyncio
 import json
+import logging
 import os
 import sys
-from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+logging.basicConfig(level=logging.INFO)
 
-import config
-from data_fetcher import fetch_ohlcv
-from indicators import compute_indicators, latest_snapshot
-from signal_engine import generate_signal
-from arbitrage import find_arbitrage_opportunities
-from ai_narrator import explain_signal
+from pipeline import run_full_scan
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 
 
 async def main():
-    results = []
-    errors = []
+    result = await run_full_scan()
 
-    for symbol in config.SYMBOLS:
-        for exchange_id in config.EXCHANGES:
-            df = fetch_ohlcv(exchange_id, symbol, config.TIMEFRAME, config.CANDLE_LIMIT)
-            if df is None or len(df) < 50:
-                errors.append(f"Insufficient data: {exchange_id} {symbol}")
-                continue
-
-            df = compute_indicators(df)
-            snapshot = latest_snapshot(df)
-            signal = generate_signal(snapshot)
-            rationale = await explain_signal(symbol, signal, snapshot)
-
-            results.append({
-                "symbol": symbol,
-                "exchange": exchange_id,
-                "price": snapshot.get("close"),
-                "signal": signal,
-                "rationale": rationale,
-                "indicators": snapshot,
-            })
-
-    try:
-        opportunities = find_arbitrage_opportunities(config.EXCHANGES, config.SYMBOLS)
-    except Exception as e:
-        opportunities = []
-        errors.append(f"Arbitrage scan failed: {e}")
-
-    now = datetime.now(timezone.utc).isoformat()
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     with open(os.path.join(OUTPUT_DIR, "signals.json"), "w") as f:
-        json.dump({"last_updated": now, "signals": results, "errors": errors}, f, indent=2)
+        json.dump({
+            "last_updated": result["last_updated"],
+            "signals": result["signals"],
+            "errors": result["errors"],
+        }, f, indent=2)
+
+    with open(os.path.join(OUTPUT_DIR, "high_confidence.json"), "w") as f:
+        json.dump({
+            "last_updated": result["last_updated"],
+            "signals": result["high_confidence_signals"],
+        }, f, indent=2)
 
     with open(os.path.join(OUTPUT_DIR, "arbitrage.json"), "w") as f:
-        json.dump({"last_updated": now, "opportunities": opportunities}, f, indent=2)
+        json.dump({
+            "last_updated": result["last_updated"],
+            "opportunities": result["arbitrage"],
+        }, f, indent=2)
 
-    print(f"Wrote {len(results)} signals and {len(opportunities)} arbitrage opportunities ({len(errors)} errors).")
+    with open(os.path.join(OUTPUT_DIR, "new_listings.json"), "w") as f:
+        json.dump({
+            "last_updated": result["last_updated"],
+            "new_listings": result["new_listings"],
+        }, f, indent=2)
+
+    with open(os.path.join(OUTPUT_DIR, "whale_alerts.json"), "w") as f:
+        json.dump({
+            "last_updated": result["last_updated"],
+            "alerts": result["whale_alerts"],
+        }, f, indent=2)
+
+    print(
+        f"Wrote {len(result['signals'])} signals "
+        f"({len(result['high_confidence_signals'])} high-confidence), "
+        f"{len(result['arbitrage'])} arbitrage opportunities, "
+        f"{len(result['whale_alerts'])} whale alerts."
+    )
 
 
 if __name__ == "__main__":

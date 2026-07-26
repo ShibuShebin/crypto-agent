@@ -6,7 +6,7 @@ Computes standard technical indicators on an OHLCV DataFrame using the `ta` libr
 import pandas as pd
 from ta.momentum import RSIIndicator
 from ta.trend import MACD, EMAIndicator, ADXIndicator
-from ta.volatility import BollingerBands
+from ta.volatility import BollingerBands, AverageTrueRange
 
 
 def compute_indicators(df: pd.DataFrame) -> pd.DataFrame:
@@ -30,6 +30,9 @@ def compute_indicators(df: pd.DataFrame) -> pd.DataFrame:
 
     adx = ADXIndicator(high=df["high"], low=df["low"], close=df["close"], window=14)
     df["adx"] = adx.adx()  # trend strength (not direction); >25 = trending market
+
+    atr = AverageTrueRange(high=df["high"], low=df["low"], close=df["close"], window=14)
+    df["atr"] = atr.average_true_range()  # volatility measure, used for stop-loss sizing
 
     # Volume spike: current volume vs 20-period rolling average
     df["vol_avg20"] = df["volume"].rolling(20).mean()

@@ -17,6 +17,7 @@
     --short: #F5486B;
     --neutral: #F0B90B;
     --accent: #4C8DFF;
+    --whale: #8B7CF6;
   }
   * { box-sizing: border-box; }
   body {
@@ -45,14 +46,20 @@
   header h1 span { color: var(--accent); }
   #meta { color: var(--muted); font-size: 12px; }
   main { max-width: 1180px; margin: 0 auto; padding: 24px 20px 60px; }
-  section { margin-bottom: 36px; }
+  section { margin-bottom: 40px; }
   .section-label {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.14em;
     color: var(--muted);
+    margin: 0 0 6px 2px;
+  }
+  .section-sub {
+    font-size: 11.5px;
+    color: var(--muted);
     margin: 0 0 14px 2px;
+    line-height: 1.5;
   }
   .grid {
     display: grid;
@@ -114,6 +121,20 @@
   .meter-fill.SHORT { background: var(--short); }
   .meter-fill.NEUTRAL { background: var(--neutral); }
   .confidence-num { font-size: 13px; font-weight: 600; min-width: 42px; text-align: right; }
+  .trend-tag { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px; }
+  .risk-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 14px;
+    font-size: 11.5px;
+    background: #0E1116;
+    border: 1px solid var(--panel-border);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+  }
+  .risk-box div span:first-child { color: var(--muted); display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .risk-box div span:last-child { font-weight: 600; }
   .rationale {
     font-size: 12.5px;
     line-height: 1.55;
@@ -121,9 +142,8 @@
     border-top: 1px dashed var(--panel-border);
     padding-top: 10px;
   }
-  .trend-tag { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
-  .arb-list { display: flex; flex-direction: column; gap: 8px; }
-  .arb-item {
+  .list { display: flex; flex-direction: column; gap: 8px; }
+  .list-item {
     background: var(--panel);
     border: 1px solid var(--panel-border);
     border-radius: 8px;
@@ -135,12 +155,9 @@
     gap: 8px;
     font-size: 13px;
   }
-  .arb-spread {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    color: var(--long);
-  }
-  .arb-route { color: var(--muted); font-size: 12px; }
+  .tag-positive { font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: var(--long); }
+  .tag-whale { font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: var(--whale); }
+  .item-sub { color: var(--muted); font-size: 12px; }
   .empty-state {
     color: var(--muted);
     font-size: 13px;
@@ -149,12 +166,18 @@
     border-radius: 8px;
     text-align: center;
   }
+  .scan-summary {
+    font-size: 12px;
+    color: var(--muted);
+    margin: 4px 0 0 2px;
+  }
   footer {
     text-align: center;
     color: var(--muted);
     font-size: 11px;
     padding: 20px;
     border-top: 1px solid var(--panel-border);
+    line-height: 1.6;
   }
 </style>
 </head>
@@ -166,43 +189,75 @@
 
 <main>
   <section>
-    <div class="section-label">Directional Signals</div>
-    <div class="grid" id="signals-grid">
-      <div class="empty-state">Loading signals…</div>
+    <div class="section-label">High-Confidence Signals (≥75%)</div>
+    <div class="section-sub">Every coin listed on Binance/Coinbase/Kraken is screened; these are the ones where the rule-based indicators strongly agree on a direction. Confidence reflects indicator agreement, not a guaranteed win rate.</div>
+    <div id="scan-summary" class="scan-summary"></div>
+    <div class="grid" id="signals-grid" style="margin-top:14px;">
+      <div class="empty-state">Loading…</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label">New Listings Watch</div>
+    <div class="section-sub">Coins that appeared for the first time in a scan (often airdrop/TGE-linked launches). Not a pre-listing airdrop calendar — just newly tradable coins.</div>
+    <div class="list" id="listings-list">
+      <div class="empty-state">Loading…</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label">Whale Activity Watch</div>
+    <div class="section-sub">Large public on-chain transfers of major Ethereum tokens (USDT, USDC, WBTC, LINK). This flags unusual size, not confirmed insider activity — large transfers are often routine.</div>
+    <div class="list" id="whale-list">
+      <div class="empty-state">Loading…</div>
     </div>
   </section>
 
   <section>
     <div class="section-label">Arbitrage Watch</div>
-    <div class="arb-list" id="arb-list">
-      <div class="empty-state">Loading arbitrage scan…</div>
+    <div class="section-sub">Live cross-exchange price spreads, estimated after fees. Excludes withdrawal time/network fees — verify manually before acting.</div>
+    <div class="list" id="arb-list">
+      <div class="empty-state">Loading…</div>
     </div>
   </section>
 </main>
 
 <footer>
-  Rule-based technical signals, not financial advice. Confidence reflects indicator agreement, not a guarantee of outcome.
+  Rule-based technical signals, not financial advice. Confidence reflects indicator agreement, not a guarantee of outcome.<br>
+  Stop-loss/take-profit levels are volatility-based reference points (ATR), not personalized recommendations — size any position to your own risk tolerance.
 </footer>
 
 <script>
-  const REFRESH_MS = 30000;
+  const REFRESH_MS = 120000; // data only changes when the GitHub Action runs (~every 30 min)
 
   function fmtTime(iso) {
     if (!iso) return "—";
-    const d = new Date(iso);
-    return d.toLocaleTimeString();
+    return new Date(iso).toLocaleTimeString();
   }
 
-  function renderSignals(signals) {
+  function fmtPrice(p) {
+    if (p === null || p === undefined) return "—";
+    return p.toLocaleString(undefined, {maximumFractionDigits: p < 1 ? 6 : 4});
+  }
+
+  function renderSignals(data) {
     const grid = document.getElementById('signals-grid');
-    if (!signals || signals.length === 0) {
-      grid.innerHTML = '<div class="empty-state">No signals yet — check back shortly.</div>';
+    const signals = data.signals || [];
+    if (signals.length === 0) {
+      grid.innerHTML = '<div class="empty-state">No signals at or above 75% confidence right now — check back after the next scan.</div>';
       return;
     }
     grid.innerHTML = signals.map(s => {
       const dir = s.signal.direction;
       const conf = s.signal.confidence_pct;
-      const price = s.price !== null ? s.price.toLocaleString(undefined, {maximumFractionDigits: 4}) : '—';
+      const risk = s.risk_levels;
+      const riskHtml = risk ? `
+        <div class="risk-box">
+          <div><span>Stop-loss</span><span>$${fmtPrice(risk.stop_loss)}</span></div>
+          <div><span>Take-profit</span><span>$${fmtPrice(risk.take_profit)}</span></div>
+          <div><span>Risk</span><span>${risk.stop_distance_pct}%</span></div>
+          <div><span>R:R</span><span>1:${risk.reward_risk_ratio}</span></div>
+        </div>` : '';
       return `
         <div class="card ${dir}">
           <div class="card-top">
@@ -212,47 +267,97 @@
             </div>
             <div class="direction-badge ${dir}">${dir}</div>
           </div>
-          <div class="price">last price <b>$${price}</b></div>
+          <div class="price">last price <b>$${fmtPrice(s.price)}</b></div>
           <div class="meter-row">
             <div class="meter-track"><div class="meter-fill ${dir}" style="width:${conf}%"></div></div>
             <div class="confidence-num">${conf}%</div>
           </div>
           <div class="trend-tag">market: ${s.signal.trend_strength}</div>
-          <div class="rationale">${s.rationale}</div>
+          ${riskHtml}
+          <div class="rationale">${s.rationale || 'Rationale unavailable this cycle.'}</div>
         </div>
       `;
     }).join('');
   }
 
-  function renderArbitrage(opps) {
-    const list = document.getElementById('arb-list');
-    if (!opps || opps.length === 0) {
-      list.innerHTML = '<div class="empty-state">No spreads above threshold right now.</div>';
+  function renderListings(data) {
+    const list = document.getElementById('listings-list');
+    const listings = data.new_listings || {};
+    const rows = [];
+    for (const [exchange, symbols] of Object.entries(listings)) {
+      (symbols || []).forEach(sym => rows.push({exchange, sym}));
+    }
+    if (rows.length === 0) {
+      list.innerHTML = '<div class="empty-state">No newly-listed coins detected in the latest scan.</div>';
       return;
     }
-    list.innerHTML = opps.map(o => `
-      <div class="arb-item">
-        <div>
-          <b>${o.symbol}</b>
-          <span class="arb-route"> · buy ${o.buy_exchange} @ ${o.buy_price} → sell ${o.sell_exchange} @ ${o.sell_price}</span>
-        </div>
-        <div class="arb-spread">+${o.est_net_spread_pct}% net</div>
+    list.innerHTML = rows.map(r => `
+      <div class="list-item">
+        <div><span class="tag-positive">NEW</span> <b>${r.sym}</b> <span class="item-sub">on ${r.exchange}</span></div>
       </div>
     `).join('');
   }
 
-  async function refresh() {
-    try {
-      const [sigRes, arbRes] = await Promise.all([
-        fetch('/api/signals').then(r => r.json()),
-        fetch('/api/arbitrage').then(r => r.json())
-      ]);
-      renderSignals(sigRes.signals);
-      renderArbitrage(arbRes.opportunities);
-      document.getElementById('meta').textContent = 'last updated: ' + fmtTime(sigRes.last_updated);
-    } catch (e) {
-      console.error('Refresh failed', e);
+  function renderWhale(data) {
+    const list = document.getElementById('whale-list');
+    const alerts = data.alerts || [];
+    if (alerts.length === 0) {
+      list.innerHTML = '<div class="empty-state">No large transfers above threshold, or whale watch isn\\'t configured (needs a free Etherscan API key).</div>';
+      return;
     }
+    list.innerHTML = alerts.map(a => `
+      <div class="list-item">
+        <div><span class="tag-whale">◆ ${a.token}</span> <b>$${Number(a.approx_usd).toLocaleString()}</b>
+          <span class="item-sub"> · ${a.amount} ${a.token} · ${a.from} → ${a.to}</span>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function renderArbitrage(data) {
+    const list = document.getElementById('arb-list');
+    const opps = data.opportunities || [];
+    if (opps.length === 0) {
+      list.innerHTML = '<div class="empty-state">No spreads above threshold right now.</div>';
+      return;
+    }
+    list.innerHTML = opps.map(o => `
+      <div class="list-item">
+        <div><b>${o.asset}</b>
+          <span class="item-sub"> · buy ${o.buy_exchange} @ ${fmtPrice(o.buy_price)} → sell ${o.sell_exchange} @ ${fmtPrice(o.sell_price)}</span>
+        </div>
+        <div class="tag-positive">+${o.est_net_spread_pct}% net</div>
+      </div>
+    `).join('');
+  }
+
+  async function safeFetchJson(path, fallback) {
+    try {
+      const res = await fetch(path + '?t=' + Date.now());
+      if (!res.ok) return fallback;
+      return await res.json();
+    } catch (e) {
+      return fallback;
+    }
+  }
+
+  async function refresh() {
+    const [sig, arb, listings, whale] = await Promise.all([
+      safeFetchJson('/api/high-confidence', {signals: []}),
+      safeFetchJson('/api/arbitrage', {opportunities: []}),
+      safeFetchJson('/api/new-listings', {new_listings: {}}),
+      safeFetchJson('/api/whale-alerts', {alerts: []}),
+    ]);
+    const allSignals = await safeFetchJson('/api/signals', {signals: []});
+
+    renderSignals(sig);
+    renderArbitrage(arb);
+    renderListings(listings);
+    renderWhale(whale);
+
+    document.getElementById('meta').textContent = 'last updated: ' + fmtTime(sig.last_updated || allSignals.last_updated);
+    document.getElementById('scan-summary').textContent =
+      `Screened ${allSignals.signals ? allSignals.signals.length : 0} coins this cycle across all exchanges.`;
   }
 
   refresh();

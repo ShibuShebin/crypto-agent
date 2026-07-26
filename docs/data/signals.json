@@ -1,15 +1,1 @@
-{
-  "last_updated": "2026-07-25T17:17:53.856560+00:00",
-  "signals": [],
-  "errors": [
-    "Insufficient data: binance BTC/USDT",
-    "Insufficient data: coinbase BTC/USDT",
-    "Insufficient data: kraken BTC/USDT",
-    "Insufficient data: binance ETH/USDT",
-    "Insufficient data: coinbase ETH/USDT",
-    "Insufficient data: kraken ETH/USDT",
-    "Insufficient data: binance SOL/USDT",
-    "Insufficient data: coinbase SOL/USDT",
-    "Insufficient data: kraken SOL/USDT"
-  ]
-}
+{"last_updated": null, "signals": [], "errors": ["No data yet -- waiting for the first workflow run."]}
