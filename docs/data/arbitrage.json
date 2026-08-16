@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T10:07:13.954333+00:00",
+  "last_updated": "2026-08-16T10:40:24.874053+00:00",
   "opportunities": [
     {
       "asset": "VELO",
@@ -8,9 +8,9 @@
       "buy_price": 0.003046,
       "sell_exchange": "coinbase",
       "sell_symbol": "VELO/USD",
-      "sell_price": 0.0167,
-      "gross_spread_pct": 448.26,
-      "est_net_spread_pct": 448.06,
+      "sell_price": 0.01669,
+      "gross_spread_pct": 447.932,
+      "est_net_spread_pct": 447.732,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
@@ -20,21 +20,21 @@
       "buy_price": 0.001425,
       "sell_exchange": "coinbase",
       "sell_symbol": "SUP/USD",
-      "sell_price": 0.005625,
-      "gross_spread_pct": 294.737,
-      "est_net_spread_pct": 294.537,
+      "sell_price": 0.00559,
+      "gross_spread_pct": 292.281,
+      "est_net_spread_pct": 292.081,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
       "asset": "MOG",
       "buy_exchange": "kraken",
       "buy_symbol": "MOG/USD",
-      "buy_price": 9.55e-08,
+      "buy_price": 9.5e-08,
       "sell_exchange": "coinbase",
       "sell_symbol": "MOG/USD",
       "sell_price": 1e-07,
-      "gross_spread_pct": 4.712,
-      "est_net_spread_pct": 4.512,
+      "gross_spread_pct": 5.263,
+      "est_net_spread_pct": 5.063,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
@@ -50,39 +50,39 @@
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "GMT",
+      "asset": "FORTH",
       "buy_exchange": "kraken",
-      "buy_symbol": "GMT/USD",
-      "buy_price": 0.00623,
+      "buy_symbol": "FORTH/USD",
+      "buy_price": 0.174,
       "sell_exchange": "coinbase",
-      "sell_symbol": "GMT/USD",
-      "sell_price": 0.0063,
-      "gross_spread_pct": 1.124,
-      "est_net_spread_pct": 0.924,
+      "sell_symbol": "FORTH/USD",
+      "sell_price": 0.1759,
+      "gross_spread_pct": 1.092,
+      "est_net_spread_pct": 0.892,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "ALCX",
+      "asset": "ARKM",
       "buy_exchange": "kraken",
-      "buy_symbol": "ALCX/USD",
-      "buy_price": 1.96,
+      "buy_symbol": "ARKM/USD",
+      "buy_price": 0.0902,
       "sell_exchange": "coinbase",
-      "sell_symbol": "ALCX/USD",
-      "sell_price": 1.98,
-      "gross_spread_pct": 1.02,
-      "est_net_spread_pct": 0.82,
+      "sell_symbol": "ARKM/USD",
+      "sell_price": 0.091,
+      "gross_spread_pct": 0.887,
+      "est_net_spread_pct": 0.687,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "PNUT",
+      "asset": "GRT",
       "buy_exchange": "coinbase",
-      "buy_symbol": "PNUT/USD",
-      "buy_price": 0.0408,
+      "buy_symbol": "GRT/USD",
+      "buy_price": 0.0134,
       "sell_exchange": "kraken",
-      "sell_symbol": "PNUT/USD",
-      "sell_price": 0.0412,
-      "gross_spread_pct": 0.98,
-      "est_net_spread_pct": 0.78,
+      "sell_symbol": "GRT/USD",
+      "sell_price": 0.01351,
+      "gross_spread_pct": 0.821,
+      "est_net_spread_pct": 0.621,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
@@ -98,6 +98,18 @@
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
+      "asset": "BREV",
+      "buy_exchange": "kraken",
+      "buy_symbol": "BREV/USD",
+      "buy_price": 0.0666,
+      "sell_exchange": "coinbase",
+      "sell_symbol": "BREV/USD",
+      "sell_price": 0.0671,
+      "gross_spread_pct": 0.751,
+      "est_net_spread_pct": 0.551,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
       "asset": "OCEAN",
       "buy_exchange": "kraken",
       "buy_symbol": "OCEAN/USD",
@@ -107,6 +119,30 @@
       "sell_price": 0.0944,
       "gross_spread_pct": 0.747,
       "est_net_spread_pct": 0.547,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
+      "asset": "SIGN",
+      "buy_exchange": "coinbase",
+      "buy_symbol": "SIGN/USD",
+      "buy_price": 0.006611,
+      "sell_exchange": "kraken",
+      "sell_symbol": "SIGN/USD",
+      "sell_price": 0.00666,
+      "gross_spread_pct": 0.741,
+      "est_net_spread_pct": 0.541,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
+      "asset": "PNUT",
+      "buy_exchange": "coinbase",
+      "buy_symbol": "PNUT/USD",
+      "buy_price": 0.0408,
+      "sell_exchange": "kraken",
+      "sell_symbol": "PNUT/USD",
+      "sell_price": 0.0411,
+      "gross_spread_pct": 0.735,
+      "est_net_spread_pct": 0.535,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     }
   ]
