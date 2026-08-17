@@ -1,52 +1,40 @@
 {
-  "last_updated": "2026-08-16T23:41:11.720912+00:00",
+  "last_updated": "2026-08-17T00:03:16.732021+00:00",
   "opportunities": [
-    {
-      "asset": "VELO",
-      "buy_exchange": "kraken",
-      "buy_symbol": "VELO/USD",
-      "buy_price": 0.00307,
-      "sell_exchange": "coinbase",
-      "sell_symbol": "VELO/USD",
-      "sell_price": 0.01676,
-      "gross_spread_pct": 445.928,
-      "est_net_spread_pct": 445.728,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
     {
       "asset": "SUP",
       "buy_exchange": "kraken",
       "buy_symbol": "SUP/USD",
-      "buy_price": 0.001514,
+      "buy_price": 0.000996,
       "sell_exchange": "coinbase",
       "sell_symbol": "SUP/USD",
       "sell_price": 0.005422,
-      "gross_spread_pct": 258.124,
-      "est_net_spread_pct": 257.924,
+      "gross_spread_pct": 444.378,
+      "est_net_spread_pct": 444.178,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
+      "asset": "VELO",
+      "buy_exchange": "kraken",
+      "buy_symbol": "VELO/USD",
+      "buy_price": 0.003081,
+      "sell_exchange": "coinbase",
+      "sell_symbol": "VELO/USD",
+      "sell_price": 0.01677,
+      "gross_spread_pct": 444.304,
+      "est_net_spread_pct": 444.104,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
       "asset": "MOG",
       "buy_exchange": "kraken",
       "buy_symbol": "MOG/USD",
-      "buy_price": 9.32e-08,
+      "buy_price": 9.34e-08,
       "sell_exchange": "coinbase",
       "sell_symbol": "MOG/USD",
       "sell_price": 1e-07,
-      "gross_spread_pct": 7.296,
-      "est_net_spread_pct": 7.096,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
-      "asset": "POND",
-      "buy_exchange": "kraken",
-      "buy_symbol": "POND/USD",
-      "buy_price": 0.000669,
-      "sell_exchange": "coinbase",
-      "sell_symbol": "POND/USD",
-      "sell_price": 0.00068,
-      "gross_spread_pct": 1.644,
-      "est_net_spread_pct": 1.444,
+      "gross_spread_pct": 7.066,
+      "est_net_spread_pct": 6.866,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
@@ -62,39 +50,39 @@
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
+      "asset": "SXT",
+      "buy_exchange": "kraken",
+      "buy_symbol": "SXT/USD",
+      "buy_price": 0.00703,
+      "sell_exchange": "coinbase",
+      "sell_symbol": "SXT/USD",
+      "sell_price": 0.0071,
+      "gross_spread_pct": 0.996,
+      "est_net_spread_pct": 0.796,
+      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
+    },
+    {
       "asset": "MLN",
       "buy_exchange": "kraken",
       "buy_symbol": "MLN/USD",
-      "buy_price": 1.2184,
+      "buy_price": 1.2188,
       "sell_exchange": "coinbase",
       "sell_symbol": "MLN/USD",
       "sell_price": 1.23,
-      "gross_spread_pct": 0.952,
-      "est_net_spread_pct": 0.752,
+      "gross_spread_pct": 0.919,
+      "est_net_spread_pct": 0.719,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "GNO",
-      "buy_exchange": "kraken",
-      "buy_symbol": "GNO/USD",
-      "buy_price": 102.88,
-      "sell_exchange": "coinbase",
-      "sell_symbol": "GNO/USD",
-      "sell_price": 103.64,
-      "gross_spread_pct": 0.739,
-      "est_net_spread_pct": 0.539,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
-      "asset": "API3",
+      "asset": "ARKM",
       "buy_exchange": "coinbase",
-      "buy_symbol": "API3/USD",
-      "buy_price": 0.196,
+      "buy_symbol": "ARKM/USD",
+      "buy_price": 0.088,
       "sell_exchange": "kraken",
-      "sell_symbol": "API3/USD",
-      "sell_price": 0.1974,
-      "gross_spread_pct": 0.714,
-      "est_net_spread_pct": 0.514,
+      "sell_symbol": "ARKM/USD",
+      "sell_price": 0.0887,
+      "gross_spread_pct": 0.795,
+      "est_net_spread_pct": 0.595,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     }
   ]
