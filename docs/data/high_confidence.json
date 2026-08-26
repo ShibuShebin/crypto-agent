@@ -1,197 +1,149 @@
 {
-  "last_updated": "2026-08-26T05:48:07.195368+00:00",
+  "last_updated": "2026-08-26T07:07:47.775328+00:00",
   "signals": [
-    {
-      "symbol": "BTC/USD",
-      "exchange": "kraken",
-      "price": 79012.9,
-      "signal": {
-        "direction": "SHORT",
-        "confidence_pct": 79.2,
-        "raw_score": -0.2229,
-        "trend_strength": "moderate",
-        "breakdown": {
-          "rsi_score": -0.027,
-          "macd_score": -1.0,
-          "ema_trend_score": 0.061,
-          "bollinger_score": -0.118,
-          "volume_score": 0.0,
-          "adx": 22.9771
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 79823.4055,
-        "take_profit": 77391.889,
-        "stop_distance_pct": 1.03,
-        "target_distance_pct": 2.05,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 78816.5,
-        "high": 79119.4,
-        "low": 78652.6,
-        "close": 79012.9,
-        "volume": 16.9654,
-        "rsi": 50.5362,
-        "macd": -54.8008,
-        "macd_signal": -46.9914,
-        "macd_diff": -7.8094,
-        "ema20": 78974.0877,
-        "ema50": 78733.5103,
-        "bb_high": 79558.861,
-        "bb_low": 78320.719,
-        "bb_pct": 0.559,
-        "adx": 22.9771,
-        "atr": 540.337,
-        "vol_avg20": 115.9813,
-        "vol_ratio": 0.1463
-      },
-      "rationale": "BTC/USD: rule-based engine reads SHORT at 79.2% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.2229). [AI explanation unavailable this cycle.]"
-    },
     {
       "symbol": "ETH/USD",
       "exchange": "kraken",
-      "price": 2463.11,
+      "price": 2459.32,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 78.6,
-        "raw_score": 0.2169,
+        "confidence_pct": 81.6,
+        "raw_score": 0.2478,
         "trend_strength": "moderate",
         "breakdown": {
-          "rsi_score": 0.034,
+          "rsi_score": 0.114,
           "macd_score": 1.0,
-          "ema_trend_score": -0.001,
-          "bollinger_score": -0.021,
+          "ema_trend_score": -0.002,
+          "bollinger_score": 0.088,
           "volume_score": 0.0,
-          "adx": 23.6025
+          "adx": 23.0425
         }
       },
       "risk_levels": {
-        "stop_loss": 2434.2674,
-        "take_profit": 2520.7952,
-        "stop_distance_pct": 1.17,
-        "target_distance_pct": 2.34,
+        "stop_loss": 2431.1083,
+        "take_profit": 2515.7434,
+        "stop_distance_pct": 1.15,
+        "target_distance_pct": 2.29,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 2456.67,
-        "high": 2467.68,
-        "low": 2451.24,
-        "close": 2463.11,
-        "volume": 609.075,
-        "rsi": 49.3246,
-        "macd": -4.8083,
-        "macd_signal": -5.4928,
-        "macd_diff": 0.6845,
-        "ema20": 2462.7565,
-        "ema50": 2462.8199,
-        "bb_high": 2488.8179,
-        "bb_low": 2436.2911,
-        "bb_pct": 0.5106,
-        "adx": 23.6025,
-        "atr": 19.2284,
-        "vol_avg20": 707.2568,
-        "vol_ratio": 0.8612
+        "open": 2464.57,
+        "high": 2466.82,
+        "low": 2453.48,
+        "close": 2459.32,
+        "volume": 174.3776,
+        "rsi": 47.7181,
+        "macd": -4.3939,
+        "macd_signal": -5.2559,
+        "macd_diff": 0.8621,
+        "ema20": 2462.5447,
+        "ema50": 2462.7364,
+        "bb_high": 2486.3523,
+        "bb_low": 2436.6787,
+        "bb_pct": 0.4558,
+        "adx": 23.0425,
+        "atr": 18.8078,
+        "vol_avg20": 683.0055,
+        "vol_ratio": 0.2553
       },
-      "rationale": "ETH/USD: rule-based engine reads LONG at 78.6% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score 0.2169). [AI explanation unavailable this cycle.]"
+      "rationale": "ETH/USD: rule-based engine reads LONG at 81.6% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score 0.2478). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "ZEC/USD",
       "exchange": "kraken",
-      "price": 790.74,
+      "price": 786.39,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 85.4,
-        "raw_score": 0.2938,
+        "confidence_pct": 87.8,
+        "raw_score": 0.3286,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.326,
+          "rsi_score": 0.433,
           "macd_score": 1.0,
-          "ema_trend_score": -0.308,
-          "bollinger_score": 0.16,
+          "ema_trend_score": -0.31,
+          "bollinger_score": 0.216,
           "volume_score": 0.0,
-          "adx": 30.0211
+          "adx": 29.6318
         }
       },
       "risk_levels": {
-        "stop_loss": 766.67685,
-        "take_profit": 838.8663,
-        "stop_distance_pct": 3.04,
-        "target_distance_pct": 6.09,
+        "stop_loss": 762.99345,
+        "take_profit": 833.1831,
+        "stop_distance_pct": 2.98,
+        "target_distance_pct": 5.95,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 783.78,
-        "high": 793.42,
-        "low": 781.14,
-        "close": 790.74,
-        "volume": 341.8088,
-        "rsi": 43.4895,
-        "macd": -12.8031,
-        "macd_signal": -13.4209,
-        "macd_diff": 0.6178,
-        "ema20": 796.2559,
-        "ema50": 808.7092,
-        "bb_high": 843.467,
-        "bb_low": 752.559,
-        "bb_pct": 0.42,
-        "adx": 30.0211,
-        "atr": 16.0421,
-        "vol_avg20": 1359.452,
-        "vol_ratio": 0.2514
+        "open": 789.78,
+        "high": 792.95,
+        "low": 783.13,
+        "close": 786.39,
+        "volume": 272.6518,
+        "rsi": 41.3371,
+        "macd": -12.0337,
+        "macd_signal": -13.1477,
+        "macd_diff": 1.114,
+        "ema20": 795.2878,
+        "ema50": 807.8222,
+        "bb_high": 836.0659,
+        "bb_low": 754.3351,
+        "bb_pct": 0.3922,
+        "adx": 29.6318,
+        "atr": 15.5977,
+        "vol_avg20": 1327.8223,
+        "vol_ratio": 0.2053
       },
-      "rationale": "ZEC/USD: rule-based engine reads LONG at 85.4% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2938). [AI explanation unavailable this cycle.]"
+      "rationale": "ZEC/USD: rule-based engine reads LONG at 87.8% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.3286). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "TAO/USD",
       "exchange": "kraken",
-      "price": 232.8065,
+      "price": 233.7708,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 84.5,
-        "raw_score": 0.2828,
+        "confidence_pct": 80.8,
+        "raw_score": 0.239,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.18,
-          "macd_score": 0.923,
-          "ema_trend_score": -0.073,
-          "bollinger_score": 0.144,
+          "rsi_score": 0.061,
+          "macd_score": 1.0,
+          "ema_trend_score": -0.07,
+          "bollinger_score": -0.081,
           "volume_score": 0.0,
-          "adx": 29.2668
+          "adx": 28.8466
         }
       },
       "risk_levels": {
-        "stop_loss": 227.4905,
-        "take_profit": 243.4385,
-        "stop_distance_pct": 2.28,
-        "target_distance_pct": 4.57,
+        "stop_loss": 228.6255,
+        "take_profit": 244.0614,
+        "stop_distance_pct": 2.2,
+        "target_distance_pct": 4.4,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 232.576,
-        "high": 232.8399,
-        "low": 230.4993,
-        "close": 232.8065,
-        "volume": 314.0663,
-        "rsi": 46.4011,
-        "macd": -1.3078,
-        "macd_signal": -1.4925,
-        "macd_diff": 0.1847,
-        "ema20": 233.7184,
-        "ema50": 234.5799,
-        "bb_high": 238.5163,
-        "bb_low": 228.5341,
-        "bb_pct": 0.428,
-        "adx": 29.2668,
-        "atr": 3.544,
-        "vol_avg20": 1216.8928,
-        "vol_ratio": 0.2581
+        "open": 233.0802,
+        "high": 233.9829,
+        "low": 232.5554,
+        "close": 233.7708,
+        "volume": 1123.7122,
+        "rsi": 48.7887,
+        "macd": -1.1389,
+        "macd_signal": -1.421,
+        "macd_diff": 0.2821,
+        "ema20": 233.7286,
+        "ema50": 234.5507,
+        "bb_high": 238.1699,
+        "bb_low": 228.6002,
+        "bb_pct": 0.5403,
+        "adx": 28.8466,
+        "atr": 3.4302,
+        "vol_avg20": 1232.785,
+        "vol_ratio": 0.9115
       },
-      "rationale": "TAO/USD: rule-based engine reads LONG at 84.5% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2828). [AI explanation unavailable this cycle.]"
+      "rationale": "TAO/USD: rule-based engine reads LONG at 80.8% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.239). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "CSPR/USD",
@@ -199,16 +151,16 @@
       "price": 0.0029,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 85.9,
-        "raw_score": 0.3006,
+        "confidence_pct": 84.2,
+        "raw_score": 0.279,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.093,
+          "rsi_score": -0.073,
           "macd_score": -0.0,
           "ema_trend_score": 0.714,
-          "bollinger_score": 0.307,
-          "volume_score": 0.589,
-          "adx": 46.8035
+          "bollinger_score": 0.029,
+          "volume_score": 1.0,
+          "adx": 44.7734
         }
       },
       "risk_levels": {
@@ -221,11 +173,11 @@
       },
       "indicators": {
         "open": 0.0029,
-        "high": 0.0029,
+        "high": 0.003,
         "low": 0.0029,
         "close": 0.0029,
-        "volume": 150028775.6167,
-        "rsi": 48.1318,
+        "volume": 346181601.1896,
+        "rsi": 51.4535,
         "macd": 0.0,
         "macd_signal": 0.0001,
         "macd_diff": -0.0,
@@ -233,702 +185,174 @@
         "ema50": 0.0028,
         "bb_high": 0.0031,
         "bb_low": 0.0028,
-        "bb_pct": 0.3464,
-        "adx": 46.8035,
+        "bb_pct": 0.4856,
+        "adx": 44.7734,
         "atr": 0.0001,
-        "vol_avg20": 72017852.9763,
-        "vol_ratio": 2.0832
+        "vol_avg20": 92573453.6257,
+        "vol_ratio": 3.7395
       },
-      "rationale": "CSPR/USD: rule-based engine reads LONG at 85.9% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.3006). [AI explanation unavailable this cycle.]"
+      "rationale": "CSPR/USD: rule-based engine reads LONG at 84.2% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.279). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "PUMP/USD",
+      "exchange": "kraken",
+      "price": 0.0049,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 85.9,
+        "raw_score": -0.3005,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": -0.543,
+          "macd_score": 0.0,
+          "ema_trend_score": 0.0,
+          "bollinger_score": -1.0,
+          "volume_score": -0.099,
+          "adx": 27.855
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.00505,
+        "take_profit": 0.0046,
+        "stop_distance_pct": 3.06,
+        "target_distance_pct": 6.12,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0049,
+        "high": 0.0049,
+        "low": 0.0048,
+        "close": 0.0049,
+        "volume": 64482583.4416,
+        "rsi": 60.8555,
+        "macd": 0.0,
+        "macd_signal": -0.0,
+        "macd_diff": 0.0,
+        "ema20": 0.0047,
+        "ema50": 0.0047,
+        "bb_high": 0.0049,
+        "bb_low": 0.0044,
+        "bb_pct": 1.0392,
+        "adx": 27.855,
+        "atr": 0.0001,
+        "vol_avg20": 47839432.7972,
+        "vol_ratio": 1.3479
+      },
+      "rationale": "PUMP/USD: rule-based engine reads SHORT at 85.9% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score -0.3005). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "XLM/USD",
       "exchange": "kraken",
-      "price": 0.1833,
+      "price": 0.1832,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 78.3,
-        "raw_score": 0.2143,
+        "confidence_pct": 76.5,
+        "raw_score": 0.1963,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.812,
+          "rsi_score": 0.786,
           "macd_score": -0.001,
-          "ema_trend_score": -0.378,
-          "bollinger_score": 0.549,
-          "volume_score": 0.032,
-          "adx": 36.0578
+          "ema_trend_score": -0.389,
+          "bollinger_score": 0.517,
+          "volume_score": 0.0,
+          "adx": 36.5249
         }
       },
       "risk_levels": {
-        "stop_loss": 0.17985,
-        "take_profit": 0.1902,
-        "stop_distance_pct": 1.88,
-        "target_distance_pct": 3.76,
+        "stop_loss": 0.1799,
+        "take_profit": 0.1898,
+        "stop_distance_pct": 1.8,
+        "target_distance_pct": 3.6,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 0.183,
-        "high": 0.1835,
-        "low": 0.1819,
-        "close": 0.1833,
-        "volume": 921928.0095,
-        "rsi": 33.7571,
+        "open": 0.1838,
+        "high": 0.1843,
+        "low": 0.1828,
+        "close": 0.1832,
+        "volume": 269136.4609,
+        "rsi": 34.2801,
         "macd": -0.0028,
         "macd_signal": -0.0027,
-        "macd_diff": -0.0002,
-        "ema20": 0.187,
-        "ema50": 0.1906,
-        "bb_high": 0.195,
-        "bb_low": 0.1799,
-        "bb_pct": 0.2255,
-        "adx": 36.0578,
-        "atr": 0.0023,
-        "vol_avg20": 739101.0508,
-        "vol_ratio": 1.2474
+        "macd_diff": -0.0001,
+        "ema20": 0.1867,
+        "ema50": 0.1904,
+        "bb_high": 0.1942,
+        "bb_low": 0.1798,
+        "bb_pct": 0.2413,
+        "adx": 36.5249,
+        "atr": 0.0022,
+        "vol_avg20": 732986.5463,
+        "vol_ratio": 0.3672
       },
-      "rationale": "XLM/USD: rule-based engine reads LONG at 78.3% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2143). [AI explanation unavailable this cycle.]"
+      "rationale": "XLM/USD: rule-based engine reads LONG at 76.5% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.1963). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "AAVE/USD",
       "exchange": "kraken",
-      "price": 127.89,
+      "price": 128.46,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 81.8,
-        "raw_score": 0.2508,
+        "confidence_pct": 75.7,
+        "raw_score": 0.1892,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.187,
+          "rsi_score": 0.078,
           "macd_score": 1.0,
-          "ema_trend_score": -0.238,
-          "bollinger_score": 0.01,
+          "ema_trend_score": -0.223,
+          "bollinger_score": -0.237,
           "volume_score": 0.0,
-          "adx": 30.9731
+          "adx": 29.7559
         }
       },
       "risk_levels": {
-        "stop_loss": 125.1591,
-        "take_profit": 133.3518,
-        "stop_distance_pct": 2.14,
-        "target_distance_pct": 4.27,
+        "stop_loss": 125.65785,
+        "take_profit": 134.0643,
+        "stop_distance_pct": 2.18,
+        "target_distance_pct": 4.36,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 126.78,
-        "high": 127.89,
-        "low": 126.55,
-        "close": 127.89,
-        "volume": 63.4864,
-        "rsi": 46.2586,
-        "macd": -1.1676,
-        "macd_signal": -1.4282,
-        "macd_diff": 0.2606,
-        "ema20": 128.2248,
-        "ema50": 129.7664,
-        "bb_high": 130.2925,
-        "bb_low": 125.5365,
-        "bb_pct": 0.4948,
-        "adx": 30.9731,
-        "atr": 1.8206,
-        "vol_avg20": 996.7806,
-        "vol_ratio": 0.0637
+        "open": 128.38,
+        "high": 128.98,
+        "low": 127.59,
+        "close": 128.46,
+        "volume": 313.0256,
+        "rsi": 48.4479,
+        "macd": -0.9873,
+        "macd_signal": -1.3349,
+        "macd_diff": 0.3476,
+        "ema20": 128.2816,
+        "ema50": 129.7303,
+        "bb_high": 130.2483,
+        "bb_low": 125.5627,
+        "bb_pct": 0.6183,
+        "adx": 29.7559,
+        "atr": 1.8681,
+        "vol_avg20": 834.924,
+        "vol_ratio": 0.3749
       },
-      "rationale": "AAVE/USD: rule-based engine reads LONG at 81.8% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2508). [AI explanation unavailable this cycle.]"
+      "rationale": "AAVE/USD: rule-based engine reads LONG at 75.7% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.1892). [AI explanation unavailable this cycle.]"
     },
     {
-      "symbol": "PAXG/USD",
-      "exchange": "kraken",
-      "price": 4640.31,
-      "signal": {
-        "direction": "SHORT",
-        "confidence_pct": 80.5,
-        "raw_score": -0.2364,
-        "trend_strength": "choppy",
-        "breakdown": {
-          "rsi_score": -0.0,
-          "macd_score": -1.0,
-          "ema_trend_score": 0.03,
-          "bollinger_score": 0.0,
-          "volume_score": -1.0,
-          "adx": 13.6989
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 4662.3645,
-        "take_profit": 4596.201,
-        "stop_distance_pct": 0.48,
-        "target_distance_pct": 0.95,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 4633.09,
-        "high": 4640.31,
-        "low": 4633.09,
-        "close": 4640.31,
-        "volume": 46.4328,
-        "rsi": 50.0089,
-        "macd": 1.6313,
-        "macd_signal": 2.6413,
-        "macd_diff": -1.0101,
-        "ema20": 4641.3147,
-        "ema50": 4634.3549,
-        "bb_high": 4666.0651,
-        "bb_low": 4614.5629,
-        "bb_pct": 0.4999,
-        "adx": 13.6989,
-        "atr": 14.703,
-        "vol_avg20": 16.5852,
-        "vol_ratio": 2.7997
-      },
-      "rationale": "PAXG/USD: rule-based engine reads SHORT at 80.5% confidence in a choppy market (RSI/MACD/EMA/Bollinger/volume composite score -0.2364). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "FARTCOIN/USD",
-      "exchange": "kraken",
-      "price": 0.2047,
-      "signal": {
-        "direction": "SHORT",
-        "confidence_pct": 79.8,
-        "raw_score": -0.2287,
-        "trend_strength": "moderate",
-        "breakdown": {
-          "rsi_score": -0.952,
-          "macd_score": 0.011,
-          "ema_trend_score": 0.582,
-          "bollinger_score": -1.0,
-          "volume_score": 0.0,
-          "adx": 22.4861
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.21325,
-        "take_profit": 0.1876,
-        "stop_distance_pct": 4.18,
-        "target_distance_pct": 8.35,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.2034,
-        "high": 0.2053,
-        "low": 0.2024,
-        "close": 0.2047,
-        "volume": 357474.7169,
-        "rsi": 69.0465,
-        "macd": 0.0056,
-        "macd_signal": 0.0035,
-        "macd_diff": 0.0022,
-        "ema20": 0.1911,
-        "ema50": 0.1857,
-        "bb_high": 0.2063,
-        "bb_low": 0.1697,
-        "bb_pct": 0.956,
-        "adx": 22.4861,
-        "atr": 0.0057,
-        "vol_avg20": 462290.0095,
-        "vol_ratio": 0.7733
-      },
-      "rationale": "FARTCOIN/USD: rule-based engine reads SHORT at 79.8% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.2287). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "MON/USD",
-      "exchange": "kraken",
-      "price": 0.0274,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 83.4,
-        "raw_score": 0.2691,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 0.888,
-          "macd_score": -0.001,
-          "ema_trend_score": -0.344,
-          "bollinger_score": 0.773,
-          "volume_score": 0.0,
-          "adx": 35.9392
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.02635,
-        "take_profit": 0.0295,
-        "stop_distance_pct": 3.83,
-        "target_distance_pct": 7.66,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.0278,
-        "high": 0.0278,
-        "low": 0.0271,
-        "close": 0.0274,
-        "volume": 1216227.3951,
-        "rsi": 32.2364,
-        "macd": -0.0007,
-        "macd_signal": -0.0006,
-        "macd_diff": -0.0001,
-        "ema20": 0.0286,
-        "ema50": 0.0291,
-        "bb_high": 0.0305,
-        "bb_low": 0.027,
-        "bb_pct": 0.1135,
-        "adx": 35.9392,
-        "atr": 0.0007,
-        "vol_avg20": 1743147.1717,
-        "vol_ratio": 0.6977
-      },
-      "rationale": "MON/USD: rule-based engine reads LONG at 83.4% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2691). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "BCH/USD",
-      "exchange": "kraken",
-      "price": 266.64,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 82.0,
-        "raw_score": 0.2531,
-        "trend_strength": "moderate",
-        "breakdown": {
-          "rsi_score": 0.206,
-          "macd_score": 0.858,
-          "ema_trend_score": -0.118,
-          "bollinger_score": 0.242,
-          "volume_score": 0.128,
-          "adx": 24.719
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 262.2573,
-        "take_profit": 275.4054,
-        "stop_distance_pct": 1.64,
-        "target_distance_pct": 3.29,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 265.67,
-        "high": 266.75,
-        "low": 264.36,
-        "close": 266.64,
-        "volume": 147.3903,
-        "rsi": 45.8797,
-        "macd": -1.1023,
-        "macd_signal": -1.2738,
-        "macd_diff": 0.1715,
-        "ema20": 267.9339,
-        "ema50": 269.5288,
-        "bb_high": 271.1355,
-        "bb_low": 263.8945,
-        "bb_pct": 0.3792,
-        "adx": 24.719,
-        "atr": 2.9218,
-        "vol_avg20": 105.8286,
-        "vol_ratio": 1.3927
-      },
-      "rationale": "BCH/USD: rule-based engine reads LONG at 82.0% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score 0.2531). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "AUD/USD",
-      "exchange": "kraken",
-      "price": 0.7182,
-      "signal": {
-        "direction": "SHORT",
-        "confidence_pct": 93.7,
-        "raw_score": -0.4495,
-        "trend_strength": "moderate",
-        "breakdown": {
-          "rsi_score": -1.0,
-          "macd_score": 0.001,
-          "ema_trend_score": 0.014,
-          "bollinger_score": -1.0,
-          "volume_score": -0.879,
-          "adx": 24.6329
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.7194,
-        "take_profit": 0.7158,
-        "stop_distance_pct": 0.17,
-        "target_distance_pct": 0.33,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.7176,
-        "high": 0.7185,
-        "low": 0.7176,
-        "close": 0.7182,
-        "volume": 133890.8918,
-        "rsi": 72.2237,
-        "macd": 0.0007,
-        "macd_signal": 0.0004,
-        "macd_diff": 0.0002,
-        "ema20": 0.7166,
-        "ema50": 0.7161,
-        "bb_high": 0.7183,
-        "bb_low": 0.7143,
-        "bb_pct": 0.9786,
-        "adx": 24.6329,
-        "atr": 0.0008,
-        "vol_avg20": 53148.4629,
-        "vol_ratio": 2.5192
-      },
-      "rationale": "AUD/USD: rule-based engine reads SHORT at 93.7% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.4495). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "DOG/USD",
-      "exchange": "kraken",
-      "price": 0.0013,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 76.0,
-        "raw_score": 0.1923,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": -0.085,
-          "macd_score": -0.0,
-          "ema_trend_score": 1.0,
-          "bollinger_score": 0.09,
-          "volume_score": 0.0,
-          "adx": 41.4291
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.00115,
-        "take_profit": 0.0016,
-        "stop_distance_pct": 11.54,
-        "target_distance_pct": 23.08,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.0013,
-        "high": 0.0013,
-        "low": 0.0013,
-        "close": 0.0013,
-        "volume": 2076888.9381,
-        "rsi": 51.6909,
-        "macd": 0.0,
-        "macd_signal": 0.0,
-        "macd_diff": -0.0,
-        "ema20": 0.0013,
-        "ema50": 0.0012,
-        "bb_high": 0.0014,
-        "bb_low": 0.0012,
-        "bb_pct": 0.4551,
-        "adx": 41.4291,
-        "atr": 0.0001,
-        "vol_avg20": 15165609.6964,
-        "vol_ratio": 0.1369
-      },
-      "rationale": "DOG/USD: rule-based engine reads LONG at 76.0% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.1923). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "JASMY/USD",
-      "exchange": "kraken",
-      "price": 0.0048,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 87.0,
-        "raw_score": 0.3163,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 0.332,
-          "macd_score": -0.0,
-          "ema_trend_score": 0.417,
-          "bollinger_score": 1.0,
-          "volume_score": 0.0,
-          "adx": 31.58
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.00465,
-        "take_profit": 0.0051,
-        "stop_distance_pct": 3.13,
-        "target_distance_pct": 6.25,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.0048,
-        "high": 0.0048,
-        "low": 0.0047,
-        "close": 0.0048,
-        "volume": 2760032.5276,
-        "rsi": 43.3605,
-        "macd": 0.0,
-        "macd_signal": 0.0001,
-        "macd_diff": -0.0,
-        "ema20": 0.0049,
-        "ema50": 0.0048,
-        "bb_high": 0.0052,
-        "bb_low": 0.0048,
-        "bb_pct": 0.0706,
-        "adx": 31.58,
-        "atr": 0.0001,
-        "vol_avg20": 4333530.8938,
-        "vol_ratio": 0.6369
-      },
-      "rationale": "JASMY/USD: rule-based engine reads LONG at 87.0% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.3163). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "DOT/USD",
-      "exchange": "kraken",
-      "price": 0.8526,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 78.7,
-        "raw_score": 0.2182,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 0.862,
-          "macd_score": -0.001,
-          "ema_trend_score": -0.382,
-          "bollinger_score": 0.529,
-          "volume_score": 0.0,
-          "adx": 42.012
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.8379,
-        "take_profit": 0.882,
-        "stop_distance_pct": 1.72,
-        "target_distance_pct": 3.45,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.8521,
-        "high": 0.8533,
-        "low": 0.8461,
-        "close": 0.8526,
-        "volume": 4359.6626,
-        "rsi": 32.7517,
-        "macd": -0.0121,
-        "macd_signal": -0.0118,
-        "macd_diff": -0.0003,
-        "ema20": 0.8671,
-        "ema50": 0.884,
-        "bb_high": 0.8958,
-        "bb_low": 0.8393,
-        "bb_pct": 0.2353,
-        "adx": 42.012,
-        "atr": 0.0098,
-        "vol_avg20": 28573.9841,
-        "vol_ratio": 0.1526
-      },
-      "rationale": "DOT/USD: rule-based engine reads LONG at 78.7% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2182). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "APT/USD",
-      "exchange": "kraken",
-      "price": 0.5641,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 80.0,
-        "raw_score": 0.2309,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 1.0,
-          "macd_score": -0.002,
-          "ema_trend_score": -0.541,
-          "bollinger_score": 0.598,
-          "volume_score": 0.0,
-          "adx": 44.2574
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.5536,
-        "take_profit": 0.5851,
-        "stop_distance_pct": 1.86,
-        "target_distance_pct": 3.72,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.566,
-        "high": 0.566,
-        "low": 0.564,
-        "close": 0.5641,
-        "volume": 6769.2622,
-        "rsi": 29.8858,
-        "macd": -0.0109,
-        "macd_signal": -0.0104,
-        "macd_diff": -0.0004,
-        "ema20": 0.5789,
-        "ema50": 0.595,
-        "bb_high": 0.6078,
-        "bb_low": 0.5531,
-        "bb_pct": 0.2012,
-        "adx": 44.2574,
-        "atr": 0.007,
-        "vol_avg20": 35641.0437,
-        "vol_ratio": 0.1899
-      },
-      "rationale": "APT/USD: rule-based engine reads LONG at 80.0% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2309). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "USDG/USD",
-      "exchange": "kraken",
-      "price": 0.9999,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 81.8,
-        "raw_score": 0.2503,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 0.401,
-          "macd_score": -0.0,
-          "ema_trend_score": 0.0,
-          "bollinger_score": 1.0,
-          "volume_score": 0.0,
-          "adx": 73.4705
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.99975,
-        "take_profit": 1.0002,
-        "stop_distance_pct": 0.02,
-        "target_distance_pct": 0.03,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 1.0,
-        "high": 1.0,
-        "low": 0.9999,
-        "close": 0.9999,
-        "volume": 555.7169,
-        "rsi": 41.9735,
-        "macd": -0.0,
-        "macd_signal": -0.0,
-        "macd_diff": -0.0,
-        "ema20": 1.0,
-        "ema50": 1.0,
-        "bb_high": 1.0002,
-        "bb_low": 0.9999,
-        "bb_pct": 0.0449,
-        "adx": 73.4705,
-        "atr": 0.0001,
-        "vol_avg20": 13061.7658,
-        "vol_ratio": 0.0425
-      },
-      "rationale": "USDG/USD: rule-based engine reads LONG at 81.8% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2503). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "XDC/USD",
-      "exchange": "kraken",
-      "price": 0.0281,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 89.6,
-        "raw_score": 0.3591,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 1.0,
-          "macd_score": -0.001,
-          "ema_trend_score": -0.204,
-          "bollinger_score": 1.0,
-          "volume_score": 0.0,
-          "adx": 31.2871
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.0278,
-        "take_profit": 0.0287,
-        "stop_distance_pct": 1.07,
-        "target_distance_pct": 2.14,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.0285,
-        "high": 0.0285,
-        "low": 0.028,
-        "close": 0.0281,
-        "volume": 282776.7622,
-        "rsi": 19.5149,
-        "macd": -0.0004,
-        "macd_signal": -0.0003,
-        "macd_diff": -0.0001,
-        "ema20": 0.0291,
-        "ema50": 0.0294,
-        "bb_high": 0.0302,
-        "bb_low": 0.0282,
-        "bb_pct": -0.0382,
-        "adx": 31.2871,
-        "atr": 0.0002,
-        "vol_avg20": 643918.761,
-        "vol_ratio": 0.4391
-      },
-      "rationale": "XDC/USD: rule-based engine reads LONG at 89.6% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.3591). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "MORPHO/USD",
-      "exchange": "kraken",
-      "price": 2.4936,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 75.0,
-        "raw_score": 0.183,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 0.576,
-          "macd_score": 0.001,
-          "ema_trend_score": -0.208,
-          "bollinger_score": 0.534,
-          "volume_score": 0.0,
-          "adx": 30.605
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 2.43465,
-        "take_profit": 2.6115,
-        "stop_distance_pct": 2.36,
-        "target_distance_pct": 4.73,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 2.5036,
-        "high": 2.5036,
-        "low": 2.4864,
-        "close": 2.4936,
-        "volume": 1763.4016,
-        "rsi": 38.474,
-        "macd": -0.0308,
-        "macd_signal": -0.0311,
-        "macd_diff": 0.0003,
-        "ema20": 2.5454,
-        "ema50": 2.5721,
-        "bb_high": 2.6369,
-        "bb_low": 2.45,
-        "bb_pct": 0.2332,
-        "adx": 30.605,
-        "atr": 0.0393,
-        "vol_avg20": 8092.0539,
-        "vol_ratio": 0.2179
-      },
-      "rationale": "MORPHO/USD: rule-based engine reads LONG at 75.0% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.183). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "BONK/USD",
+      "symbol": "PEPE/USD",
       "exchange": "kraken",
       "price": 0.0,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 85.1,
-        "raw_score": 0.2905,
+        "confidence_pct": 81.0,
+        "raw_score": 0.242,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.736,
+          "rsi_score": 0.656,
           "macd_score": -0.0,
           "ema_trend_score": 0.0,
-          "bollinger_score": 0.711,
+          "bollinger_score": 0.521,
           "volume_score": 0.0,
-          "adx": 31.7193
+          "adx": 31.0297
         }
       },
       "risk_levels": null,
@@ -937,8 +361,8 @@
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1910840997.1578,
-        "rsi": 35.2897,
+        "volume": 25868425855.9899,
+        "rsi": 36.8864,
         "macd": -0.0,
         "macd_signal": -0.0,
         "macd_diff": -0.0,
@@ -946,13 +370,630 @@
         "ema50": 0.0,
         "bb_high": 0.0,
         "bb_low": 0.0,
-        "bb_pct": 0.1447,
-        "adx": 31.7193,
+        "bb_pct": 0.2396,
+        "adx": 31.0297,
         "atr": 0.0,
-        "vol_avg20": 5498811554.9944,
-        "vol_ratio": 0.3475
+        "vol_avg20": 25759971552.8149,
+        "vol_ratio": 1.0042
       },
-      "rationale": "BONK/USD: rule-based engine reads LONG at 85.1% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2905). [AI explanation unavailable this cycle.]"
+      "rationale": "PEPE/USD: rule-based engine reads LONG at 81.0% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.242). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "INJ/USD",
+      "exchange": "kraken",
+      "price": 5.514,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 76.0,
+        "raw_score": 0.1917,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.442,
+          "macd_score": -0.092,
+          "ema_trend_score": 0.12,
+          "bollinger_score": 0.536,
+          "volume_score": 0.0,
+          "adx": 26.2063
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 5.3556,
+        "take_profit": 5.8308,
+        "stop_distance_pct": 2.87,
+        "target_distance_pct": 5.75,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 5.52,
+        "high": 5.549,
+        "low": 5.498,
+        "close": 5.514,
+        "volume": 1436.8079,
+        "rsi": 41.1664,
+        "macd": -0.049,
+        "macd_signal": -0.0306,
+        "macd_diff": -0.0184,
+        "ema20": 5.6229,
+        "ema50": 5.5894,
+        "bb_high": 5.912,
+        "bb_low": 5.3936,
+        "bb_pct": 0.2322,
+        "adx": 26.2063,
+        "atr": 0.1056,
+        "vol_avg20": 10035.0054,
+        "vol_ratio": 0.1432
+      },
+      "rationale": "INJ/USD: rule-based engine reads LONG at 76.0% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.1917). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "BNB/USD",
+      "exchange": "kraken",
+      "price": 697.06,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 81.6,
+        "raw_score": 0.2485,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.1,
+          "macd_score": 1.0,
+          "ema_trend_score": -0.035,
+          "bollinger_score": -0.129,
+          "volume_score": 0.0,
+          "adx": 25.558
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 690.8887,
+        "take_profit": 709.4026,
+        "stop_distance_pct": 0.89,
+        "target_distance_pct": 1.77,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 696.12,
+        "high": 697.06,
+        "low": 695.23,
+        "close": 697.06,
+        "volume": 47.4502,
+        "rsi": 48.0025,
+        "macd": -1.7945,
+        "macd_signal": -2.0107,
+        "macd_diff": 0.2162,
+        "ema20": 697.3772,
+        "ema50": 698.6159,
+        "bb_high": 701.1958,
+        "bb_low": 691.6972,
+        "bb_pct": 0.5646,
+        "adx": 25.558,
+        "atr": 4.1142,
+        "vol_avg20": 99.4302,
+        "vol_ratio": 0.4772
+      },
+      "rationale": "BNB/USD: rule-based engine reads LONG at 81.6% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2485). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "BCH/USD",
+      "exchange": "kraken",
+      "price": 265.4,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 75.2,
+        "raw_score": 0.1848,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": 0.336,
+          "macd_score": 0.315,
+          "ema_trend_score": -0.126,
+          "bollinger_score": 0.533,
+          "volume_score": 0.0,
+          "adx": 24.9379
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 261.1964,
+        "take_profit": 273.8072,
+        "stop_distance_pct": 1.58,
+        "target_distance_pct": 3.17,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 266.41,
+        "high": 266.41,
+        "low": 265.16,
+        "close": 265.4,
+        "volume": 15.5186,
+        "rsi": 43.2863,
+        "macd": -1.2027,
+        "macd_signal": -1.2657,
+        "macd_diff": 0.063,
+        "ema20": 267.6512,
+        "ema50": 269.3491,
+        "bb_high": 270.6304,
+        "bb_low": 263.8066,
+        "bb_pct": 0.2335,
+        "adx": 24.9379,
+        "atr": 2.8024,
+        "vol_avg20": 106.0481,
+        "vol_ratio": 0.1463
+      },
+      "rationale": "BCH/USD: rule-based engine reads LONG at 75.2% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score 0.1848). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "AUD/USD",
+      "exchange": "kraken",
+      "price": 0.7176,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 77.5,
+        "raw_score": -0.2062,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": -0.605,
+          "macd_score": 0.001,
+          "ema_trend_score": 0.017,
+          "bollinger_score": -0.571,
+          "volume_score": -0.063,
+          "adx": 24.3694
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.7188,
+        "take_profit": 0.7152,
+        "stop_distance_pct": 0.17,
+        "target_distance_pct": 0.33,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.718,
+        "high": 0.7184,
+        "low": 0.7172,
+        "close": 0.7176,
+        "volume": 70414.9821,
+        "rsi": 62.0927,
+        "macd": 0.0007,
+        "macd_signal": 0.0005,
+        "macd_diff": 0.0002,
+        "ema20": 0.7167,
+        "ema50": 0.7161,
+        "bb_high": 0.7185,
+        "bb_low": 0.7144,
+        "bb_pct": 0.7853,
+        "adx": 24.3694,
+        "atr": 0.0008,
+        "vol_avg20": 54404.0067,
+        "vol_ratio": 1.2943
+      },
+      "rationale": "AUD/USD: rule-based engine reads SHORT at 77.5% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.2062). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "KAS/USD",
+      "exchange": "kraken",
+      "price": 0.0274,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 82.8,
+        "raw_score": 0.2623,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.79,
+          "macd_score": -0.0,
+          "ema_trend_score": -0.281,
+          "bollinger_score": 0.651,
+          "volume_score": 0.155,
+          "adx": 31.2241
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.0268,
+        "take_profit": 0.0286,
+        "stop_distance_pct": 2.19,
+        "target_distance_pct": 4.38,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0278,
+        "high": 0.0278,
+        "low": 0.0273,
+        "close": 0.0274,
+        "volume": 1605652.0599,
+        "rsi": 34.1962,
+        "macd": -0.0003,
+        "macd_signal": -0.0003,
+        "macd_diff": -0.0,
+        "ema20": 0.0281,
+        "ema50": 0.0285,
+        "bb_high": 0.0289,
+        "bb_low": 0.0272,
+        "bb_pct": 0.1746,
+        "adx": 31.2241,
+        "atr": 0.0004,
+        "vol_avg20": 1120966.3583,
+        "vol_ratio": 1.4324
+      },
+      "rationale": "KAS/USD: rule-based engine reads LONG at 82.8% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2623). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "DOG/USD",
+      "exchange": "kraken",
+      "price": 0.0012,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 91.8,
+        "raw_score": 0.4035,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.214,
+          "macd_score": -0.0,
+          "ema_trend_score": 1.0,
+          "bollinger_score": 1.0,
+          "volume_score": 0.0,
+          "adx": 39.4631
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.00105,
+        "take_profit": 0.0015,
+        "stop_distance_pct": 12.5,
+        "target_distance_pct": 25.0,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0013,
+        "high": 0.0013,
+        "low": 0.0012,
+        "close": 0.0012,
+        "volume": 17358485.2517,
+        "rsi": 45.7213,
+        "macd": 0.0,
+        "macd_signal": 0.0,
+        "macd_diff": -0.0,
+        "ema20": 0.0013,
+        "ema50": 0.0012,
+        "bb_high": 0.0014,
+        "bb_low": 0.0012,
+        "bb_pct": 0.0517,
+        "adx": 39.4631,
+        "atr": 0.0001,
+        "vol_avg20": 15842116.0414,
+        "vol_ratio": 1.0957
+      },
+      "rationale": "DOG/USD: rule-based engine reads LONG at 91.8% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.4035). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "XDC/USD",
+      "exchange": "kraken",
+      "price": 0.0284,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 86.1,
+        "raw_score": 0.3034,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 1.0,
+          "macd_score": -0.001,
+          "ema_trend_score": -0.272,
+          "bollinger_score": 0.72,
+          "volume_score": 0.0,
+          "adx": 33.192
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.0281,
+        "take_profit": 0.029,
+        "stop_distance_pct": 1.06,
+        "target_distance_pct": 2.11,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0282,
+        "high": 0.0284,
+        "low": 0.0281,
+        "close": 0.0284,
+        "volume": 352205.9452,
+        "rsi": 29.1856,
+        "macd": -0.0004,
+        "macd_signal": -0.0003,
+        "macd_diff": -0.0001,
+        "ema20": 0.029,
+        "ema50": 0.0294,
+        "bb_high": 0.0301,
+        "bb_low": 0.0281,
+        "bb_pct": 0.1401,
+        "adx": 33.192,
+        "atr": 0.0002,
+        "vol_avg20": 659615.7547,
+        "vol_ratio": 0.534
+      },
+      "rationale": "XDC/USD: rule-based engine reads LONG at 86.1% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.3034). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "BTR/USD",
+      "exchange": "kraken",
+      "price": 0.0823,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 88.7,
+        "raw_score": -0.3438,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": -1.0,
+          "macd_score": 0.025,
+          "ema_trend_score": 1.0,
+          "bollinger_score": -1.0,
+          "volume_score": -1.0,
+          "adx": 37.1043
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.08905,
+        "take_profit": 0.0688,
+        "stop_distance_pct": 8.2,
+        "target_distance_pct": 16.4,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.075,
+        "high": 0.0875,
+        "low": 0.0724,
+        "close": 0.0823,
+        "volume": 3087263.4528,
+        "rsi": 96.8103,
+        "macd": 0.0083,
+        "macd_signal": 0.0033,
+        "macd_diff": 0.005,
+        "ema20": 0.0434,
+        "ema50": 0.0364,
+        "bb_high": 0.0673,
+        "bb_low": 0.0108,
+        "bb_pct": 1.2645,
+        "adx": 37.1043,
+        "atr": 0.0045,
+        "vol_avg20": 327349.71,
+        "vol_ratio": 9.4311
+      },
+      "rationale": "BTR/USD: rule-based engine reads SHORT at 88.7% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score -0.3438). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "MORPHO/USD",
+      "exchange": "kraken",
+      "price": 2.4811,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 78.6,
+        "raw_score": 0.2164,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.655,
+          "macd_score": -0.006,
+          "ema_trend_score": -0.23,
+          "bollinger_score": 0.666,
+          "volume_score": 0.0,
+          "adx": 30.934
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 2.42425,
+        "take_profit": 2.5948,
+        "stop_distance_pct": 2.29,
+        "target_distance_pct": 4.58,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 2.49,
+        "high": 2.4989,
+        "low": 2.478,
+        "close": 2.4811,
+        "volume": 1732.05,
+        "rsi": 36.8969,
+        "macd": -0.0325,
+        "macd_signal": -0.0314,
+        "macd_diff": -0.0011,
+        "ema20": 2.5388,
+        "ema50": 2.5683,
+        "bb_high": 2.6135,
+        "bb_low": 2.4545,
+        "bb_pct": 0.167,
+        "adx": 30.934,
+        "atr": 0.0379,
+        "vol_avg20": 8136.5308,
+        "vol_ratio": 0.2129
+      },
+      "rationale": "MORPHO/USD: rule-based engine reads LONG at 78.6% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2164). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "TON/USD",
+      "exchange": "kraken",
+      "price": 1.427,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 80.5,
+        "raw_score": 0.2359,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": 0.784,
+          "macd_score": -0.013,
+          "ema_trend_score": -0.156,
+          "bollinger_score": 0.773,
+          "volume_score": 0.0,
+          "adx": 24.3781
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 1.4042,
+        "take_profit": 1.4726,
+        "stop_distance_pct": 1.6,
+        "target_distance_pct": 3.2,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 1.436,
+        "high": 1.436,
+        "low": 1.422,
+        "close": 1.427,
+        "volume": 4645.1544,
+        "rsi": 34.3199,
+        "macd": -0.011,
+        "macd_signal": -0.0084,
+        "macd_diff": -0.0026,
+        "ema20": 1.4494,
+        "ema50": 1.4608,
+        "bb_high": 1.4834,
+        "bb_low": 1.4198,
+        "bb_pct": 0.1135,
+        "adx": 24.3781,
+        "atr": 0.0152,
+        "vol_avg20": 12770.0345,
+        "vol_ratio": 0.3638
+      },
+      "rationale": "TON/USD: rule-based engine reads LONG at 80.5% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score 0.2359). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "BONK/USD",
+      "exchange": "kraken",
+      "price": 0.0,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 80.9,
+        "raw_score": 0.2408,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.644,
+          "macd_score": -0.0,
+          "ema_trend_score": 0.0,
+          "bollinger_score": 0.532,
+          "volume_score": 0.0,
+          "adx": 32.3993
+        }
+      },
+      "risk_levels": null,
+      "indicators": {
+        "open": 0.0,
+        "high": 0.0,
+        "low": 0.0,
+        "close": 0.0,
+        "volume": 3507495925.1243,
+        "rsi": 37.1127,
+        "macd": -0.0,
+        "macd_signal": -0.0,
+        "macd_diff": -0.0,
+        "ema20": 0.0,
+        "ema50": 0.0,
+        "bb_high": 0.0,
+        "bb_low": 0.0,
+        "bb_pct": 0.2342,
+        "adx": 32.3993,
+        "atr": 0.0,
+        "vol_avg20": 5378113785.4295,
+        "vol_ratio": 0.6522
+      },
+      "rationale": "BONK/USD: rule-based engine reads LONG at 80.9% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2408). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "LDO/USD",
+      "exchange": "kraken",
+      "price": 0.358,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 84.2,
+        "raw_score": 0.2794,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.728,
+          "macd_score": -0.004,
+          "ema_trend_score": -0.258,
+          "bollinger_score": 1.0,
+          "volume_score": 0.0,
+          "adx": 28.3881
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.35005,
+        "take_profit": 0.3739,
+        "stop_distance_pct": 2.22,
+        "target_distance_pct": 4.44,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.361,
+        "high": 0.361,
+        "low": 0.358,
+        "close": 0.358,
+        "volume": 10441.2715,
+        "rsi": 35.4426,
+        "macd": -0.0041,
+        "macd_signal": -0.0033,
+        "macd_diff": -0.0007,
+        "ema20": 0.3669,
+        "ema50": 0.3717,
+        "bb_high": 0.3802,
+        "bb_low": 0.3566,
+        "bb_pct": 0.0582,
+        "adx": 28.3881,
+        "atr": 0.0053,
+        "vol_avg20": 51335.0351,
+        "vol_ratio": 0.2034
+      },
+      "rationale": "LDO/USD: rule-based engine reads LONG at 84.2% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2794). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "AR/USD",
+      "exchange": "kraken",
+      "price": 2.187,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 75.4,
+        "raw_score": 0.1871,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.546,
+          "macd_score": -0.02,
+          "ema_trend_score": -0.084,
+          "bollinger_score": 0.483,
+          "volume_score": 0.0,
+          "adx": 25.5411
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 2.14275,
+        "take_profit": 2.2755,
+        "stop_distance_pct": 2.02,
+        "target_distance_pct": 4.05,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 2.198,
+        "high": 2.205,
+        "low": 2.183,
+        "close": 2.187,
+        "volume": 663.6143,
+        "rsi": 39.0727,
+        "macd": -0.0212,
+        "macd_signal": -0.0173,
+        "macd_diff": -0.004,
+        "ema20": 2.221,
+        "ema50": 2.2304,
+        "bb_high": 2.3203,
+        "bb_low": 2.1405,
+        "bb_pct": 0.2587,
+        "adx": 25.5411,
+        "atr": 0.0295,
+        "vol_avg20": 7456.5745,
+        "vol_ratio": 0.089
+      },
+      "rationale": "AR/USD: rule-based engine reads LONG at 75.4% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.1871). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "FLR/USD",
@@ -960,16 +1001,16 @@
       "price": 0.0066,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 83.0,
-        "raw_score": 0.2641,
+        "confidence_pct": 85.6,
+        "raw_score": 0.2975,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.961,
+          "rsi_score": 1.0,
           "macd_score": 0.0,
           "ema_trend_score": -0.294,
-          "bollinger_score": 0.551,
+          "bollinger_score": 0.709,
           "volume_score": 0.0,
-          "adx": 55.4868
+          "adx": 54.8643
         }
       },
       "risk_levels": {
@@ -985,8 +1026,8 @@
         "high": 0.0066,
         "low": 0.0066,
         "close": 0.0066,
-        "volume": 294493.6772,
-        "rsi": 30.7756,
+        "volume": 269776.0121,
+        "rsi": 29.9384,
         "macd": -0.0001,
         "macd_signal": -0.0001,
         "macd_diff": 0.0,
@@ -994,301 +1035,157 @@
         "ema50": 0.0068,
         "bb_high": 0.0068,
         "bb_low": 0.0065,
-        "bb_pct": 0.2246,
-        "adx": 55.4868,
+        "bb_pct": 0.1456,
+        "adx": 54.8643,
         "atr": 0.0001,
-        "vol_avg20": 1918035.4556,
-        "vol_ratio": 0.1535
+        "vol_avg20": 1920484.1897,
+        "vol_ratio": 0.1405
       },
-      "rationale": "FLR/USD: rule-based engine reads LONG at 83.0% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2641). [AI explanation unavailable this cycle.]"
+      "rationale": "FLR/USD: rule-based engine reads LONG at 85.6% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2975). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "CVX/USD",
       "exchange": "kraken",
-      "price": 2.022,
+      "price": 1.991,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 76.4,
-        "raw_score": 0.1954,
+        "confidence_pct": 88.4,
+        "raw_score": 0.3384,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.719,
-          "macd_score": 0.001,
-          "ema_trend_score": -0.265,
-          "bollinger_score": 0.455,
+          "rsi_score": 0.992,
+          "macd_score": -0.006,
+          "ema_trend_score": -0.291,
+          "bollinger_score": 1.0,
           "volume_score": 0.0,
-          "adx": 28.2577
+          "adx": 29.1151
         }
       },
       "risk_levels": {
-        "stop_loss": 1.9836,
-        "take_profit": 2.0988,
-        "stop_distance_pct": 1.9,
-        "target_distance_pct": 3.8,
+        "stop_loss": 1.95215,
+        "take_profit": 2.0687,
+        "stop_distance_pct": 1.95,
+        "target_distance_pct": 3.9,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 2.021,
-        "high": 2.024,
-        "low": 2.01,
-        "close": 2.022,
-        "volume": 2752.3222,
-        "rsi": 35.6263,
-        "macd": -0.0297,
-        "macd_signal": -0.03,
-        "macd_diff": 0.0003,
-        "ema20": 2.0582,
-        "ema50": 2.0858,
-        "bb_high": 2.1201,
-        "bb_low": 1.9853,
-        "bb_pct": 0.2723,
-        "adx": 28.2577,
-        "atr": 0.0256,
-        "vol_avg20": 6885.2483,
-        "vol_ratio": 0.3997
+        "open": 2.02,
+        "high": 2.02,
+        "low": 1.991,
+        "close": 1.991,
+        "volume": 3178.8148,
+        "rsi": 30.152,
+        "macd": -0.0314,
+        "macd_signal": -0.0303,
+        "macd_diff": -0.0012,
+        "ema20": 2.0517,
+        "ema50": 2.082,
+        "bb_high": 2.1077,
+        "bb_low": 1.9835,
+        "bb_pct": 0.0605,
+        "adx": 29.1151,
+        "atr": 0.0259,
+        "vol_avg20": 6245.8713,
+        "vol_ratio": 0.5089
       },
-      "rationale": "CVX/USD: rule-based engine reads LONG at 76.4% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.1954). [AI explanation unavailable this cycle.]"
+      "rationale": "CVX/USD: rule-based engine reads LONG at 88.4% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.3384). [AI explanation unavailable this cycle.]"
     },
     {
-      "symbol": "ACU/USD",
+      "symbol": "MINA/USD",
       "exchange": "kraken",
-      "price": 0.1289,
+      "price": 0.0622,
       "signal": {
         "direction": "SHORT",
-        "confidence_pct": 78.9,
-        "raw_score": -0.2199,
-        "trend_strength": "moderate",
-        "breakdown": {
-          "rsi_score": -1.0,
-          "macd_score": 0.005,
-          "ema_trend_score": 0.7,
-          "bollinger_score": -1.0,
-          "volume_score": 0.0,
-          "adx": 20.945
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.13415,
-        "take_profit": 0.1184,
-        "stop_distance_pct": 4.07,
-        "target_distance_pct": 8.15,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.1296,
-        "high": 0.1298,
-        "low": 0.1282,
-        "close": 0.1289,
-        "volume": 56604.4043,
-        "rsi": 71.2647,
-        "macd": 0.0037,
-        "macd_signal": 0.0027,
-        "macd_diff": 0.001,
-        "ema20": 0.1212,
-        "ema50": 0.1171,
-        "bb_high": 0.1296,
-        "bb_low": 0.1108,
-        "bb_pct": 0.9613,
-        "adx": 20.945,
-        "atr": 0.0035,
-        "vol_avg20": 85854.2567,
-        "vol_ratio": 0.6593
-      },
-      "rationale": "ACU/USD: rule-based engine reads SHORT at 78.9% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.2199). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "US/USD",
-      "exchange": "kraken",
-      "price": 0.0163,
-      "signal": {
-        "direction": "SHORT",
-        "confidence_pct": 82.9,
-        "raw_score": -0.2635,
+        "confidence_pct": 79.7,
+        "raw_score": -0.228,
         "trend_strength": "choppy",
         "breakdown": {
-          "rsi_score": -0.565,
-          "macd_score": 0.001,
-          "ema_trend_score": -0.741,
+          "rsi_score": -0.641,
+          "macd_score": -0.0,
+          "ema_trend_score": 0.401,
           "bollinger_score": -1.0,
-          "volume_score": 0.0,
-          "adx": 17.9922
+          "volume_score": -1.0,
+          "adx": 17.7907
         }
       },
       "risk_levels": {
-        "stop_loss": 0.0169,
-        "take_profit": 0.0151,
-        "stop_distance_pct": 3.68,
-        "target_distance_pct": 7.36,
+        "stop_loss": 0.0637,
+        "take_profit": 0.0592,
+        "stop_distance_pct": 2.41,
+        "target_distance_pct": 4.82,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 0.0161,
-        "high": 0.0164,
-        "low": 0.0161,
-        "close": 0.0163,
-        "volume": 245996.1621,
-        "rsi": 61.304,
-        "macd": 0.0,
-        "macd_signal": -0.0002,
-        "macd_diff": 0.0002,
-        "ema20": 0.0156,
-        "ema50": 0.0162,
-        "bb_high": 0.0162,
-        "bb_low": 0.0142,
-        "bb_pct": 1.0557,
-        "adx": 17.9922,
-        "atr": 0.0004,
-        "vol_avg20": 604990.7956,
-        "vol_ratio": 0.4066
+        "open": 0.061,
+        "high": 0.0623,
+        "low": 0.061,
+        "close": 0.0622,
+        "volume": 1020048.7661,
+        "rsi": 62.8226,
+        "macd": 0.0005,
+        "macd_signal": 0.0005,
+        "macd_diff": -0.0,
+        "ema20": 0.061,
+        "ema50": 0.0598,
+        "bb_high": 0.0621,
+        "bb_low": 0.06,
+        "bb_pct": 1.0345,
+        "adx": 17.7907,
+        "atr": 0.001,
+        "vol_avg20": 168420.7427,
+        "vol_ratio": 6.0566
       },
-      "rationale": "The short signal is driven by the MACD histogram and low volume ratio, indicating potential downward momentum. The RSI is relatively high, but not overbought."
-    },
-    {
-      "symbol": "UAI/USD",
-      "exchange": "kraken",
-      "price": 0.2864,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 84.1,
-        "raw_score": 0.278,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 0.709,
-          "macd_score": -0.003,
-          "ema_trend_score": -0.568,
-          "bollinger_score": 0.435,
-          "volume_score": 1.0,
-          "adx": 34.7224
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.27005,
-        "take_profit": 0.3191,
-        "stop_distance_pct": 5.71,
-        "target_distance_pct": 11.42,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.2912,
-        "high": 0.2923,
-        "low": 0.2858,
-        "close": 0.2864,
-        "volume": 120062.463,
-        "rsi": 35.8285,
-        "macd": -0.0125,
-        "macd_signal": -0.0118,
-        "macd_diff": -0.0006,
-        "ema20": 0.3009,
-        "ema50": 0.3097,
-        "bb_high": 0.3421,
-        "bb_low": 0.2644,
-        "bb_pct": 0.2825,
-        "adx": 34.7224,
-        "atr": 0.0109,
-        "vol_avg20": 37789.4087,
-        "vol_ratio": 3.1771
-      },
-      "rationale": "UAI/USD: rule-based engine reads LONG at 84.1% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.278). [AI explanation unavailable this cycle.]"
+      "rationale": "MINA/USD: rule-based engine reads SHORT at 79.7% confidence in a choppy market (RSI/MACD/EMA/Bollinger/volume composite score -0.228). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "BILLY/USD",
       "exchange": "kraken",
-      "price": 0.003,
+      "price": 0.0027,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 80.4,
-        "raw_score": 0.2354,
+        "confidence_pct": 87.3,
+        "raw_score": 0.3208,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.015,
+          "rsi_score": 0.194,
           "macd_score": -0.001,
           "ema_trend_score": 1.0,
-          "bollinger_score": 0.213,
+          "bollinger_score": 0.482,
           "volume_score": 0.0,
-          "adx": 45.6486
+          "adx": 43.2484
         }
       },
       "risk_levels": {
-        "stop_loss": 0.0021,
-        "take_profit": 0.0048,
-        "stop_distance_pct": 30.0,
-        "target_distance_pct": 60.0,
+        "stop_loss": 0.0018,
+        "take_profit": 0.0045,
+        "stop_distance_pct": 33.33,
+        "target_distance_pct": 66.67,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
         "open": 0.0029,
         "high": 0.003,
-        "low": 0.0028,
-        "close": 0.003,
-        "volume": 291039.074,
-        "rsi": 49.7063,
-        "macd": 0.0002,
-        "macd_signal": 0.0003,
+        "low": 0.0027,
+        "close": 0.0027,
+        "volume": 2678044.9816,
+        "rsi": 46.1118,
+        "macd": 0.0001,
+        "macd_signal": 0.0002,
         "macd_diff": -0.0001,
         "ema20": 0.0031,
         "ema50": 0.0026,
         "bb_high": 0.0041,
         "bb_low": 0.0022,
-        "bb_pct": 0.3937,
-        "adx": 45.6486,
+        "bb_pct": 0.2588,
+        "adx": 43.2484,
         "atr": 0.0006,
-        "vol_avg20": 3656706.1419,
-        "vol_ratio": 0.0796
+        "vol_avg20": 3692628.0375,
+        "vol_ratio": 0.7252
       },
-      "rationale": "BILLY/USD: rule-based engine reads LONG at 80.4% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2354). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "NPC/USD",
-      "exchange": "kraken",
-      "price": 0.0126,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 82.9,
-        "raw_score": 0.2629,
-        "trend_strength": "trending",
-        "breakdown": {
-          "rsi_score": 0.224,
-          "macd_score": -0.001,
-          "ema_trend_score": 0.64,
-          "bollinger_score": 0.528,
-          "volume_score": 0.0,
-          "adx": 52.184
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.01125,
-        "take_profit": 0.0153,
-        "stop_distance_pct": 10.71,
-        "target_distance_pct": 21.43,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.0126,
-        "high": 0.0126,
-        "low": 0.0126,
-        "close": 0.0126,
-        "volume": 0.0,
-        "rsi": 45.5262,
-        "macd": -0.0,
-        "macd_signal": 0.0,
-        "macd_diff": -0.0001,
-        "ema20": 0.0129,
-        "ema50": 0.0125,
-        "bb_high": 0.0134,
-        "bb_low": 0.0124,
-        "bb_pct": 0.2362,
-        "adx": 52.184,
-        "atr": 0.0009,
-        "vol_avg20": 829770.955,
-        "vol_ratio": 0.0
-      },
-      "rationale": "NPC/USD: rule-based engine reads LONG at 82.9% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2629). [AI explanation unavailable this cycle.]"
+      "rationale": "BILLY/USD: rule-based engine reads LONG at 87.3% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.3208). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "HONEY/USD",
@@ -1305,7 +1202,7 @@
           "ema_trend_score": 1.0,
           "bollinger_score": -1.0,
           "volume_score": 0.0,
-          "adx": 61.9951
+          "adx": 63.6876
         }
       },
       "risk_levels": {
@@ -1317,74 +1214,218 @@
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 0.0014,
+        "open": 0.0013,
         "high": 0.0015,
-        "low": 0.0014,
+        "low": 0.0013,
         "close": 0.0014,
-        "volume": 8673032.4942,
-        "rsi": 84.9539,
+        "volume": 12484407.6346,
+        "rsi": 79.7757,
         "macd": 0.0002,
         "macd_signal": 0.0001,
         "macd_diff": 0.0001,
         "ema20": 0.001,
         "ema50": 0.0008,
-        "bb_high": 0.0014,
+        "bb_high": 0.0015,
         "bb_low": 0.0004,
-        "bb_pct": 0.9744,
-        "adx": 61.9951,
+        "bb_pct": 0.9655,
+        "adx": 63.6876,
         "atr": 0.0002,
-        "vol_avg20": 10612792.2375,
-        "vol_ratio": 0.8172
+        "vol_avg20": 11893525.1582,
+        "vol_ratio": 1.0497
       },
       "rationale": "HONEY/USD: rule-based engine reads SHORT at 76.8% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score -0.1999). [AI explanation unavailable this cycle.]"
     },
     {
-      "symbol": "PLAY/USD",
+      "symbol": "NPC/USD",
       "exchange": "kraken",
-      "price": 0.0381,
+      "price": 0.0127,
       "signal": {
-        "direction": "SHORT",
-        "confidence_pct": 77.4,
-        "raw_score": -0.2047,
+        "direction": "LONG",
+        "confidence_pct": 80.1,
+        "raw_score": 0.2319,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": -0.711,
-          "macd_score": 0.001,
-          "ema_trend_score": 0.272,
-          "bollinger_score": -0.543,
+          "rsi_score": 0.174,
+          "macd_score": -0.001,
+          "ema_trend_score": 0.64,
+          "bollinger_score": 0.403,
           "volume_score": 0.0,
-          "adx": 27.0845
+          "adx": 53.2067
         }
       },
       "risk_levels": {
-        "stop_loss": 0.03885,
-        "take_profit": 0.0366,
-        "stop_distance_pct": 1.97,
-        "target_distance_pct": 3.94,
+        "stop_loss": 0.01135,
+        "take_profit": 0.0154,
+        "stop_distance_pct": 10.63,
+        "target_distance_pct": 21.26,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 0.0379,
-        "high": 0.0381,
-        "low": 0.0378,
-        "close": 0.0381,
-        "volume": 140799.0493,
-        "rsi": 64.2297,
+        "open": 0.0127,
+        "high": 0.0129,
+        "low": 0.0127,
+        "close": 0.0127,
+        "volume": 285416.134,
+        "rsi": 46.5205,
+        "macd": -0.0,
+        "macd_signal": 0.0,
+        "macd_diff": -0.0001,
+        "ema20": 0.0129,
+        "ema50": 0.0125,
+        "bb_high": 0.0134,
+        "bb_low": 0.0124,
+        "bb_pct": 0.2983,
+        "adx": 53.2067,
+        "atr": 0.0009,
+        "vol_avg20": 805007.218,
+        "vol_ratio": 0.3546
+      },
+      "rationale": "NPC/USD: rule-based engine reads LONG at 80.1% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2319). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "US/USD",
+      "exchange": "kraken",
+      "price": 0.0161,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 78.0,
+        "raw_score": -0.2113,
+        "trend_strength": "choppy",
+        "breakdown": {
+          "rsi_score": -0.351,
+          "macd_score": 0.001,
+          "ema_trend_score": -0.741,
+          "bollinger_score": -0.776,
+          "volume_score": 0.0,
+          "adx": 19.1729
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.0167,
+        "take_profit": 0.0149,
+        "stop_distance_pct": 3.73,
+        "target_distance_pct": 7.45,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0163,
+        "high": 0.0163,
+        "low": 0.016,
+        "close": 0.0161,
+        "volume": 404659.7811,
+        "rsi": 57.0273,
+        "macd": 0.0001,
+        "macd_signal": -0.0001,
+        "macd_diff": 0.0002,
+        "ema20": 0.0156,
+        "ema50": 0.0162,
+        "bb_high": 0.0163,
+        "bb_low": 0.0143,
+        "bb_pct": 0.8879,
+        "adx": 19.1729,
+        "atr": 0.0004,
+        "vol_avg20": 643758.4243,
+        "vol_ratio": 0.6286
+      },
+      "rationale": "US/USD: rule-based engine reads SHORT at 78.0% confidence in a choppy market (RSI/MACD/EMA/Bollinger/volume composite score -0.2113). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "PLAY/USD",
+      "exchange": "kraken",
+      "price": 0.0383,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 84.2,
+        "raw_score": -0.2791,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": -0.827,
+          "macd_score": 0.001,
+          "ema_trend_score": 0.271,
+          "bollinger_score": -0.593,
+          "volume_score": -0.25,
+          "adx": 27.2715
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.03905,
+        "take_profit": 0.0368,
+        "stop_distance_pct": 1.96,
+        "target_distance_pct": 3.92,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0382,
+        "high": 0.0384,
+        "low": 0.0381,
+        "close": 0.0383,
+        "volume": 435961.1456,
+        "rsi": 66.5473,
         "macd": 0.0005,
         "macd_signal": 0.0004,
-        "macd_diff": 0.0002,
-        "ema20": 0.0373,
-        "ema50": 0.0368,
-        "bb_high": 0.039,
+        "macd_diff": 0.0001,
+        "ema20": 0.0374,
+        "ema50": 0.0369,
+        "bb_high": 0.0391,
         "bb_low": 0.0351,
-        "bb_pct": 0.7715,
-        "adx": 27.0845,
+        "bb_pct": 0.7967,
+        "adx": 27.2715,
         "atr": 0.0005,
-        "vol_avg20": 250161.9876,
-        "vol_ratio": 0.5628
+        "vol_avg20": 276750.047,
+        "vol_ratio": 1.5753
       },
-      "rationale": "PLAY/USD: rule-based engine reads SHORT at 77.4% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score -0.2047). [AI explanation unavailable this cycle.]"
+      "rationale": "PLAY/USD: rule-based engine reads SHORT at 84.2% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score -0.2791). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "PYTH/USD",
+      "exchange": "kraken",
+      "price": 0.0537,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 81.3,
+        "raw_score": -0.2446,
+        "trend_strength": "choppy",
+        "breakdown": {
+          "rsi_score": -0.773,
+          "macd_score": 0.001,
+          "ema_trend_score": 0.157,
+          "bollinger_score": -1.0,
+          "volume_score": -0.641,
+          "adx": 19.425
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.0552,
+        "take_profit": 0.0507,
+        "stop_distance_pct": 2.79,
+        "target_distance_pct": 5.59,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0527,
+        "high": 0.0537,
+        "low": 0.0527,
+        "close": 0.0537,
+        "volume": 379967.1605,
+        "rsi": 65.4536,
+        "macd": 0.0004,
+        "macd_signal": 0.0001,
+        "macd_diff": 0.0002,
+        "ema20": 0.0515,
+        "ema50": 0.0511,
+        "bb_high": 0.0536,
+        "bb_low": 0.0493,
+        "bb_pct": 1.0305,
+        "adx": 19.425,
+        "atr": 0.001,
+        "vol_avg20": 175825.3953,
+        "vol_ratio": 2.161
+      },
+      "rationale": "PYTH/USD: rule-based engine reads SHORT at 81.3% confidence in a choppy market (RSI/MACD/EMA/Bollinger/volume composite score -0.2446). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "FORTH/USD",
@@ -1392,239 +1433,239 @@
       "price": 0.241,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 93.7,
-        "raw_score": 0.4505,
+        "confidence_pct": 93.5,
+        "raw_score": 0.4451,
         "trend_strength": "trending",
         "breakdown": {
-          "rsi_score": 0.459,
+          "rsi_score": 0.463,
           "macd_score": -0.056,
           "ema_trend_score": 1.0,
-          "bollinger_score": 1.0,
-          "volume_score": 0.0,
-          "adx": 62.1131
+          "bollinger_score": 0.788,
+          "volume_score": 0.169,
+          "adx": 59.4262
         }
       },
       "risk_levels": {
-        "stop_loss": 0.18595,
-        "take_profit": 0.3511,
-        "stop_distance_pct": 22.84,
-        "target_distance_pct": 45.68,
+        "stop_loss": 0.187,
+        "take_profit": 0.349,
+        "stop_distance_pct": 22.41,
+        "target_distance_pct": 44.81,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 0.258,
-        "high": 0.258,
-        "low": 0.241,
+        "open": 0.242,
+        "high": 0.245,
+        "low": 0.219,
         "close": 0.241,
-        "volume": 10465.7603,
-        "rsi": 40.829,
-        "macd": 0.0021,
-        "macd_signal": 0.0135,
+        "volume": 39001.1383,
+        "rsi": 40.7474,
+        "macd": -0.0006,
+        "macd_signal": 0.0107,
         "macd_diff": -0.0113,
-        "ema20": 0.2783,
-        "ema50": 0.2539,
-        "bb_high": 0.3744,
-        "bb_low": 0.2299,
-        "bb_pct": 0.0771,
-        "adx": 62.1131,
-        "atr": 0.0367,
-        "vol_avg20": 26577.5603,
-        "vol_ratio": 0.3938
+        "ema20": 0.2752,
+        "ema50": 0.2536,
+        "bb_high": 0.3762,
+        "bb_low": 0.225,
+        "bb_pct": 0.106,
+        "adx": 59.4262,
+        "atr": 0.036,
+        "vol_avg20": 26835.7539,
+        "vol_ratio": 1.4533
       },
-      "rationale": "FORTH/USD: rule-based engine reads LONG at 93.7% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.4505). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "RAY/USD",
-      "exchange": "kraken",
-      "price": 0.783,
-      "signal": {
-        "direction": "LONG",
-        "confidence_pct": 77.3,
-        "raw_score": 0.2045,
-        "trend_strength": "choppy",
-        "breakdown": {
-          "rsi_score": 0.226,
-          "macd_score": -0.011,
-          "ema_trend_score": 0.168,
-          "bollinger_score": 0.69,
-          "volume_score": 1.0,
-          "adx": 14.2586
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.76635,
-        "take_profit": 0.8163,
-        "stop_distance_pct": 2.13,
-        "target_distance_pct": 4.25,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.776,
-        "high": 0.783,
-        "low": 0.775,
-        "close": 0.783,
-        "volume": 57041.6303,
-        "rsi": 45.4842,
-        "macd": -0.0015,
-        "macd_signal": 0.0009,
-        "macd_diff": -0.0023,
-        "ema20": 0.7907,
-        "ema50": 0.7841,
-        "bb_high": 0.8056,
-        "bb_low": 0.7789,
-        "bb_pct": 0.1548,
-        "adx": 14.2586,
-        "atr": 0.0111,
-        "vol_avg20": 9514.3429,
-        "vol_ratio": 5.9953
-      },
-      "rationale": "RAY/USD: rule-based engine reads LONG at 77.3% confidence in a choppy market (RSI/MACD/EMA/Bollinger/volume composite score 0.2045). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "AUT/USD",
-      "exchange": "kraken",
-      "price": 4628.1,
-      "signal": {
-        "direction": "SHORT",
-        "confidence_pct": 79.1,
-        "raw_score": -0.2215,
-        "trend_strength": "choppy",
-        "breakdown": {
-          "rsi_score": 0.046,
-          "macd_score": -1.0,
-          "ema_trend_score": 0.033,
-          "bollinger_score": 0.084,
-          "volume_score": -1.0,
-          "adx": 12.7276
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 4648.40655,
-        "take_profit": 4587.4869,
-        "stop_distance_pct": 0.44,
-        "target_distance_pct": 0.88,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 4626.2,
-        "high": 4628.9,
-        "low": 4626.2,
-        "close": 4628.1,
-        "volume": 5.0403,
-        "rsi": 49.0762,
-        "macd": 2.1138,
-        "macd_signal": 3.3235,
-        "macd_diff": -1.2098,
-        "ema20": 4631.8482,
-        "ema50": 4624.1503,
-        "bb_high": 4659.4113,
-        "bb_low": 4601.6387,
-        "bb_pct": 0.458,
-        "adx": 12.7276,
-        "atr": 13.5377,
-        "vol_avg20": 1.4639,
-        "vol_ratio": 3.443
-      },
-      "rationale": "AUT/USD: rule-based engine reads SHORT at 79.1% confidence in a choppy market (RSI/MACD/EMA/Bollinger/volume composite score -0.2215). [AI explanation unavailable this cycle.]"
-    },
-    {
-      "symbol": "PLUME/USD",
-      "exchange": "kraken",
-      "price": 0.0139,
-      "signal": {
-        "direction": "SHORT",
-        "confidence_pct": 81.3,
-        "raw_score": -0.2454,
-        "trend_strength": "moderate",
-        "breakdown": {
-          "rsi_score": -0.555,
-          "macd_score": 0.001,
-          "ema_trend_score": 0.0,
-          "bollinger_score": -1.0,
-          "volume_score": 0.0,
-          "adx": 23.9012
-        }
-      },
-      "risk_levels": {
-        "stop_loss": 0.0142,
-        "take_profit": 0.0133,
-        "stop_distance_pct": 2.16,
-        "target_distance_pct": 4.32,
-        "reward_risk_ratio": 2.0,
-        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
-      },
-      "indicators": {
-        "open": 0.0138,
-        "high": 0.014,
-        "low": 0.0137,
-        "close": 0.0139,
-        "volume": 385189.9455,
-        "rsi": 61.1068,
-        "macd": 0.0,
-        "macd_signal": -0.0001,
-        "macd_diff": 0.0001,
-        "ema20": 0.0136,
-        "ema50": 0.0136,
-        "bb_high": 0.0139,
-        "bb_low": 0.0131,
-        "bb_pct": 1.0342,
-        "adx": 23.9012,
-        "atr": 0.0002,
-        "vol_avg20": 414857.1476,
-        "vol_ratio": 0.9285
-      },
-      "rationale": "PLUME/USD: rule-based engine reads SHORT at 81.3% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.2454). [AI explanation unavailable this cycle.]"
+      "rationale": "FORTH/USD: rule-based engine reads LONG at 93.5% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.4451). [AI explanation unavailable this cycle.]"
     },
     {
       "symbol": "EUL/USD",
       "exchange": "kraken",
-      "price": 1.341,
+      "price": 1.354,
       "signal": {
         "direction": "LONG",
-        "confidence_pct": 88.9,
-        "raw_score": 0.3471,
+        "confidence_pct": 75.2,
+        "raw_score": 0.1848,
         "trend_strength": "moderate",
         "breakdown": {
-          "rsi_score": 0.326,
-          "macd_score": -0.047,
-          "ema_trend_score": 0.193,
-          "bollinger_score": 1.0,
-          "volume_score": 1.0,
-          "adx": 20.0375
+          "rsi_score": 0.243,
+          "macd_score": -0.046,
+          "ema_trend_score": 0.161,
+          "bollinger_score": 0.714,
+          "volume_score": 0.194,
+          "adx": 20.3917
         }
       },
       "risk_levels": {
-        "stop_loss": 1.2693,
-        "take_profit": 1.4844,
-        "stop_distance_pct": 5.35,
-        "target_distance_pct": 10.69,
+        "stop_loss": 1.28245,
+        "take_profit": 1.4971,
+        "stop_distance_pct": 5.28,
+        "target_distance_pct": 10.57,
         "reward_risk_ratio": 2.0,
         "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
       },
       "indicators": {
-        "open": 1.323,
-        "high": 1.341,
-        "low": 1.275,
-        "close": 1.341,
-        "volume": 13948.8061,
-        "rsi": 43.4757,
-        "macd": -0.002,
-        "macd_signal": 0.0074,
-        "macd_diff": -0.0094,
-        "ema20": 1.3948,
-        "ema50": 1.3815,
+        "open": 1.352,
+        "high": 1.356,
+        "low": 1.324,
+        "close": 1.354,
+        "volume": 7021.0373,
+        "rsi": 45.1311,
+        "macd": -0.004,
+        "macd_signal": 0.0053,
+        "macd_diff": -0.0093,
+        "ema20": 1.392,
+        "ema50": 1.3809,
         "bb_high": 1.4693,
-        "bb_low": 1.3363,
-        "bb_pct": 0.0351,
-        "adx": 20.0375,
-        "atr": 0.0478,
-        "vol_avg20": 3809.8306,
-        "vol_ratio": 3.6613
+        "bb_low": 1.3347,
+        "bb_pct": 0.1432,
+        "adx": 20.3917,
+        "atr": 0.0477,
+        "vol_avg20": 4711.2728,
+        "vol_ratio": 1.4903
       },
-      "rationale": "EUL/USD: rule-based engine reads LONG at 88.9% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score 0.3471). [AI explanation unavailable this cycle.]"
+      "rationale": "EUL/USD: rule-based engine reads LONG at 75.2% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score 0.1848). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "PLUME/USD",
+      "exchange": "kraken",
+      "price": 0.014,
+      "signal": {
+        "direction": "SHORT",
+        "confidence_pct": 85.3,
+        "raw_score": -0.2933,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": -0.664,
+          "macd_score": 0.001,
+          "ema_trend_score": -0.146,
+          "bollinger_score": -1.0,
+          "volume_score": 0.0,
+          "adx": 23.7743
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.0143,
+        "take_profit": 0.0134,
+        "stop_distance_pct": 2.14,
+        "target_distance_pct": 4.29,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.014,
+        "high": 0.014,
+        "low": 0.0139,
+        "close": 0.014,
+        "volume": 93745.6909,
+        "rsi": 63.28,
+        "macd": 0.0,
+        "macd_signal": -0.0,
+        "macd_diff": 0.0001,
+        "ema20": 0.0136,
+        "ema50": 0.0137,
+        "bb_high": 0.014,
+        "bb_low": 0.0131,
+        "bb_pct": 1.0217,
+        "adx": 23.7743,
+        "atr": 0.0002,
+        "vol_avg20": 416377.5183,
+        "vol_ratio": 0.2251
+      },
+      "rationale": "PLUME/USD: rule-based engine reads SHORT at 85.3% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score -0.2933). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "STORJ/USD",
+      "exchange": "kraken",
+      "price": 0.0412,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 82.8,
+        "raw_score": 0.2618,
+        "trend_strength": "trending",
+        "breakdown": {
+          "rsi_score": 0.618,
+          "macd_score": -0.001,
+          "ema_trend_score": -0.664,
+          "bollinger_score": 0.603,
+          "volume_score": 1.0,
+          "adx": 29.4659
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.03805,
+        "take_profit": 0.0475,
+        "stop_distance_pct": 7.65,
+        "target_distance_pct": 15.29,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0402,
+        "high": 0.0427,
+        "low": 0.0402,
+        "close": 0.0412,
+        "volume": 395059.9354,
+        "rsi": 37.644,
+        "macd": -0.0019,
+        "macd_signal": -0.0016,
+        "macd_diff": -0.0003,
+        "ema20": 0.0437,
+        "ema50": 0.0452,
+        "bb_high": 0.0485,
+        "bb_low": 0.0394,
+        "bb_pct": 0.1984,
+        "adx": 29.4659,
+        "atr": 0.0021,
+        "vol_avg20": 114639.4175,
+        "vol_ratio": 3.4461
+      },
+      "rationale": "STORJ/USD: rule-based engine reads LONG at 82.8% confidence in a trending market (RSI/MACD/EMA/Bollinger/volume composite score 0.2618). [AI explanation unavailable this cycle.]"
+    },
+    {
+      "symbol": "SCRT/USD",
+      "exchange": "kraken",
+      "price": 0.0142,
+      "signal": {
+        "direction": "LONG",
+        "confidence_pct": 78.8,
+        "raw_score": 0.2192,
+        "trend_strength": "moderate",
+        "breakdown": {
+          "rsi_score": 1.0,
+          "macd_score": -0.001,
+          "ema_trend_score": -1.0,
+          "bollinger_score": 1.0,
+          "volume_score": 0.387,
+          "adx": 22.4385
+        }
+      },
+      "risk_levels": {
+        "stop_loss": 0.01315,
+        "take_profit": 0.0163,
+        "stop_distance_pct": 7.39,
+        "target_distance_pct": 14.79,
+        "reward_risk_ratio": 2.0,
+        "note": "Reference levels from recent volatility (ATR), not personalized advice. Size any position/leverage so the stop distance matches what you're willing to risk."
+      },
+      "indicators": {
+        "open": 0.0144,
+        "high": 0.0145,
+        "low": 0.0139,
+        "close": 0.0142,
+        "volume": 570933.5494,
+        "rsi": 28.1479,
+        "macd": -0.0007,
+        "macd_signal": -0.0006,
+        "macd_diff": -0.0001,
+        "ema20": 0.0156,
+        "ema50": 0.0166,
+        "bb_high": 0.0172,
+        "bb_low": 0.0143,
+        "bb_pct": -0.0251,
+        "adx": 22.4385,
+        "atr": 0.0007,
+        "vol_avg20": 320782.7438,
+        "vol_ratio": 1.7798
+      },
+      "rationale": "SCRT/USD: rule-based engine reads LONG at 78.8% confidence in a moderate market (RSI/MACD/EMA/Bollinger/volume composite score 0.2192). [AI explanation unavailable this cycle.]"
     }
   ]
 }
