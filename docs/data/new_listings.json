@@ -1,4 +1,16 @@
 {
-  "last_updated": "2026-10-22T10:31:18.791935+00:00",
-  "new_listings": {}
+  "last_updated": "2026-10-22T15:36:09.008435+00:00",
+  "new_listings": {
+    "binance": [
+      "BBB/USDT",
+      "MDBB/USDT",
+      "PENGB/USDT",
+      "UVXYB/USDT",
+      "BOTB/USDT",
+      "KSTRB/USDT",
+      "TMFB/USDT",
+      "VSTB/USDT",
+      "BRKBB/USDT"
+    ]
+  }
 }
