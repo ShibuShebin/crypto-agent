@@ -1,4 +1,12 @@
 {
-  "last_updated": "2026-10-30T20:02:58.318011+00:00",
-  "new_listings": {}
+  "last_updated": "2026-10-30T23:41:47.915338+00:00",
+  "new_listings": {
+    "binance": [
+      "APPB/USDT",
+      "BSPB/USDT",
+      "GEVB/USDT",
+      "SKDDB/USDT",
+      "SKUUB/USDT"
+    ]
+  }
 }
