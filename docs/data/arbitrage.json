@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T15:36:38.118014+00:00",
+  "last_updated": "2026-11-22T21:39:41.224897+00:00",
   "opportunities": [
     {
       "asset": "SUP",
@@ -8,69 +8,33 @@
       "buy_price": 0.000108,
       "sell_exchange": "coinbase",
       "sell_symbol": "SUP/USD",
-      "sell_price": 0.002382,
-      "gross_spread_pct": 2105.556,
-      "est_net_spread_pct": 2105.356,
+      "sell_price": 0.002422,
+      "gross_spread_pct": 2142.593,
+      "est_net_spread_pct": 2142.393,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
-      "asset": "GST",
+      "asset": "MOG",
       "buy_exchange": "kraken",
-      "buy_symbol": "GST/USD",
-      "buy_price": 0.00037,
+      "buy_symbol": "MOG/USD",
+      "buy_price": 8.01e-08,
       "sell_exchange": "coinbase",
-      "sell_symbol": "GST/USD",
-      "sell_price": 0.000374,
-      "gross_spread_pct": 1.081,
-      "est_net_spread_pct": 0.881,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
-      "asset": "INX",
-      "buy_exchange": "kraken",
-      "buy_symbol": "INX/USD",
-      "buy_price": 0.003075,
-      "sell_exchange": "coinbase",
-      "sell_symbol": "INX/USD",
-      "sell_price": 0.003102,
-      "gross_spread_pct": 0.878,
-      "est_net_spread_pct": 0.678,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
-      "asset": "BIGTIME",
-      "buy_exchange": "kraken",
-      "buy_symbol": "BIGTIME/USD",
-      "buy_price": 0.003926,
-      "sell_exchange": "coinbase",
-      "sell_symbol": "BIGTIME/USD",
-      "sell_price": 0.003958,
-      "gross_spread_pct": 0.815,
-      "est_net_spread_pct": 0.615,
+      "sell_symbol": "MOG/USD",
+      "sell_price": 9e-08,
+      "gross_spread_pct": 12.36,
+      "est_net_spread_pct": 12.16,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     },
     {
       "asset": "FORTH",
-      "buy_exchange": "kraken",
+      "buy_exchange": "coinbase",
       "buy_symbol": "FORTH/USD",
-      "buy_price": 0.162,
-      "sell_exchange": "coinbase",
+      "buy_price": 0.15033,
+      "sell_exchange": "kraken",
       "sell_symbol": "FORTH/USD",
-      "sell_price": 0.16325,
-      "gross_spread_pct": 0.772,
-      "est_net_spread_pct": 0.572,
-      "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
-    },
-    {
-      "asset": "NEX",
-      "buy_exchange": "kraken",
-      "buy_symbol": "NEX/USD",
-      "buy_price": 5.26e-07,
-      "sell_exchange": "coinbase",
-      "sell_symbol": "NEX/USD",
-      "sell_price": 5.3e-07,
-      "gross_spread_pct": 0.76,
-      "est_net_spread_pct": 0.56,
+      "sell_price": 0.155,
+      "gross_spread_pct": 3.106,
+      "est_net_spread_pct": 2.906,
       "note": "Excludes withdrawal/network fees and transfer time -- verify before acting."
     }
   ]
